@@ -10,5 +10,5 @@ detector.setModelPath(os.path.join(
 detector.loadModel()
 
 video_path = detector.detectObjectsFromVideo(input_file_path=os.path.join(execution_path, "media/video.mp4"), output_file_path=os.path.join(
-    execution_path, "traffic_detected"), frames_per_second=20, log_progress=True)
+    execution_path, "traffic_detected"), frames_per_second=30, log_progress=True)
 print(video_path)
