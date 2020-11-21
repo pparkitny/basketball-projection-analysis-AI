@@ -10,6 +10,9 @@ opencv-python = "*"
 imageai = "*"
 keras = "==2.2.5"
 tensorflow-gpu = "==1.15.4"
+django = "*"
+celery = "*"
+redis = "*"
 
 [requires]
 python_version = "3.7"
