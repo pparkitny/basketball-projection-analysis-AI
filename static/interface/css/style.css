@@ -1,0 +1,66 @@
+html,
+body {
+  font-family: "Roboto", sans-serif !important;
+  background-color: #181616;
+  color: white;
+}
+
+.brand-logo {
+  font-size: 45px !important;
+  width: 100%;
+}
+
+.nav-wrapper {
+  background-color: #181616 !important;
+  height: 94px !important;
+  padding: 15px;
+}
+
+.nav-wrapper:hover {
+  background-color: #393636 !important;
+  transition: color 0.28s ease, background-color 0.28s ease;
+  transition-property: color, background-color;
+  transition-duration: 0.28s, 0.28s;
+  transition-timing-function: ease, ease;
+  transition-delay: 0s, 0s;
+}
+
+.nav-content {
+  background-color: #f5ab1b !important;
+}
+
+.ul-even {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 8px;
+  height: 64px !important;
+}
+.ul-even a {
+  font-size: 24px !important;
+  color: white !important;
+}
+
+.ul-even li {
+  background-color: #181616;
+  width: 300px;
+}
+.tab:hover {
+  background-color: #393636;
+}
+
+.active {
+  background-color: #393636 !important;
+}
+
+.main-site {
+  font-size: 144px !important;
+  text-align: center;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-text {
+  line-height: 144px;
+}
