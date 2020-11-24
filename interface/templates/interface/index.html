@@ -1,8 +1,90 @@
-{%extends "interface/base.html"%} {%block title%} Basketball projection analysis AI {%endblock%} {%block content%}
+{%extends "interface/base.html"%}
+{% load static %}
+{%block title%} Basketball projection analysis AI {%endblock%} 
+{%block content%}
 
-<div class="main-site">
-  <div class="main-text">THIS IS</div>
-  <div class="main-text">MAIN SITE</div>
+
+<div class="parallax-container">
+  <div class="parallax">
+    <img class='parallax-img' src="{% static 'interface/img/ball1.jpg' %}">
+  </div>
 </div>
 
-{% comment %} {{test}} {% endcomment %} {%endblock%}
+<div id="instruction" class="section">
+  <div class="row container">
+    <h2 class="header">INSTRUCTION</h2>
+    <p class="text-darken-3 lighten-3">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed massa massa, faucibus at tellus id, feugiat semper purus. Vestibulum ac libero neque. Maecenas varius leo vehicula tempor aliquam. Suspendisse viverra, risus sit amet cursus convallis, mi dui mollis augue, mattis fringilla dolor nunc ac nulla. Vivamus pretium mollis risus nec fringilla. In eget risus felis. Pellentesque accumsan elit sit amet nunc dignissim, vitae mattis felis blandit.
+      Suspendisse convallis consequat maximus. Quisque mollis eros nec metus tincidunt, in suscipit tortor convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras elementum mauris vel nisi mollis consectetur. Praesent viverra erat eget congue laoreet. Nulla in orci vitae est dictum placerat. Fusce neque purus, imperdiet commodo tellus eu, aliquam venenatis erat. Proin rutrum eget dui nec lobortis. Nam tellus elit, placerat ut mi non, pretium consequat nunc. Aliquam consectetur consectetur vestibulum. Suspendisse quis viverra justo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Nulla laoreet nibh nec quam facilisis, a viverra nunc ultrices. Praesent pellentesque, leo vel varius tristique, sapien felis dictum felis, quis faucibus mi ante ut est. Sed quis dolor sit amet nisi feugiat rutrum. Aliquam sed ex sit amet mauris egestas feugiat. Suspendisse efficitur orci vitae euismod blandit. Duis tincidunt odio lorem, vel blandit sapien elementum laoreet. Aenean nec malesuada arcu.
+      Sed ut scelerisque ex, sit amet tincidunt eros. Aliquam vel ipsum magna. Aliquam purus eros, accumsan sed egestas ac, rhoncus eu nibh. Aenean ullamcorper, justo in vulputate mollis, ante risus semper nibh, non lacinia justo erat sit amet eros. Quisque semper convallis ex nec eleifend. Aliquam suscipit egestas malesuada. Aenean molestie quam erat, et mollis sapien fringilla quis. In hac habitasse platea dictumst. Vestibulum sit amet quam lorem. Fusce diam risus, consectetur in accumsan sed, molestie et nisl. Sed mi turpis, tincidunt in velit nec, vulputate euismod massa. Sed eu velit cursus, venenatis est vitae, feugiat tortor. Nullam ac lectus hendrerit, porttitor eros ut, malesuada nisl.
+      Ut tortor nisi, lobortis eu ante vel, venenatis faucibus orci. Phasellus venenatis risus orci, a sodales metus rutrum quis. Cras sodales lobortis urna sit amet laoreet. Nunc vehicula risus vel felis varius, non interdum lectus feugiat. Integer ac commodo lectus. Aenean id vulputate metus. Phasellus convallis, velit ut gravida porta, velit turpis egestas ipsum, eu imperdiet ligula risus nec risus. Pellentesque quis nulla sed tellus facilisis ultricies non rutrum tortor. Praesent id magna faucibus enim posuere tempor. Aenean congue justo quam, at placerat metus aliquet vel. Donec iaculis sem purus, quis tempus magna laoreet a.
+    </p>
+  </div>
+</div>
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="{% static 'interface/img/ball1.jpg' %}">
+    </div>
+  </div>
+
+<div id="upload" class="section">
+  <div class="row container">
+    <h2 class="header">UPLOAD</h2>
+
+    <!-- Upload  -->
+    <form id="file-upload-form" class="uploader">
+      <input id="file-upload" type="file" name="fileUpload" accept="image/*" />
+
+      <label for="file-upload" id="file-drag">
+        <img id="file-image" src="#" alt="Preview" class="hidden">
+        <div id="start">
+          <i class="fa fa-download" aria-hidden="true"></i>
+          <div>Select a file or drag here</div>
+          <div id="notimage" class="hidden">Please select an image</div>
+          <span id="file-upload-btn" class="btn btn-primary">Select a file</span>
+        </div>
+        <div id="response" class="hidden">
+          <div id="messages"></div>
+          <progress class="progress" id="file-progress" value="0">
+            <span>0</span>%
+          </progress>
+        </div>
+      </label>
+    </form>
+    
+    <!-- <a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>ADD VIDEO</a> -->
+  </div>
+</div>
+
+<div class="parallax-container">
+  <div class="parallax">
+    <img src="{% static 'interface/img/ball1.jpg' %}">
+  </div>
+</div>
+
+<div id="authors" class="section">
+  <div class="row container">
+    <h2 class="header">AUTHORS</h2>
+    <p class="text-darken-3 lighten-3">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed massa massa, faucibus at tellus id, feugiat semper purus. Vestibulum ac libero neque. Maecenas varius leo vehicula tempor aliquam. Suspendisse viverra, risus sit amet cursus convallis, mi dui mollis augue, mattis fringilla dolor nunc ac nulla. Vivamus pretium mollis risus nec fringilla. In eget risus felis. Pellentesque accumsan elit sit amet nunc dignissim, vitae mattis felis blandit.
+      Suspendisse convallis consequat maximus. Quisque mollis eros nec metus tincidunt, in suscipit tortor convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras elementum mauris vel nisi mollis consectetur. Praesent viverra erat eget congue laoreet. Nulla in orci vitae est dictum placerat. Fusce neque purus, imperdiet commodo tellus eu, aliquam venenatis erat. Proin rutrum eget dui nec lobortis. Nam tellus elit, placerat ut mi non, pretium consequat nunc. Aliquam consectetur consectetur vestibulum. Suspendisse quis viverra justo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Nulla laoreet nibh nec quam facilisis, a viverra nunc ultrices. Praesent pellentesque, leo vel varius tristique, sapien felis dictum felis, quis faucibus mi ante ut est. Sed quis dolor sit amet nisi feugiat rutrum. Aliquam sed ex sit amet mauris egestas feugiat. Suspendisse efficitur orci vitae euismod blandit. Duis tincidunt odio lorem, vel blandit sapien elementum laoreet. Aenean nec malesuada arcu.
+      Sed ut scelerisque ex, sit amet tincidunt eros. Aliquam vel ipsum magna. Aliquam purus eros, accumsan sed egestas ac, rhoncus eu nibh. Aenean ullamcorper, justo in vulputate mollis, ante risus semper nibh, non lacinia justo erat sit amet eros. Quisque semper convallis ex nec eleifend. Aliquam suscipit egestas malesuada. Aenean molestie quam erat, et mollis sapien fringilla quis. In hac habitasse platea dictumst. Vestibulum sit amet quam lorem. Fusce diam risus, consectetur in accumsan sed, molestie et nisl. Sed mi turpis, tincidunt in velit nec, vulputate euismod massa. Sed eu velit cursus, venenatis est vitae, feugiat tortor. Nullam ac lectus hendrerit, porttitor eros ut, malesuada nisl.
+      Ut tortor nisi, lobortis eu ante vel, venenatis faucibus orci. Phasellus venenatis risus orci, a sodales metus rutrum quis. Cras sodales lobortis urna sit amet laoreet. Nunc vehicula risus vel felis varius, non interdum lectus feugiat. Integer ac commodo lectus. Aenean id vulputate metus. Phasellus convallis, velit ut gravida porta, velit turpis egestas ipsum, eu imperdiet ligula risus nec risus. Pellentesque quis nulla sed tellus facilisis ultricies non rutrum tortor. Praesent id magna faucibus enim posuere tempor. Aenean congue justo quam, at placerat metus aliquet vel. Donec iaculis sem purus, quis tempus magna laoreet a.
+    </p>
+  </div>
+</div>
+<div id="stopka">  Strona wykonana w celu ukazania możliwości przyszłego rozwoju programu | © 2020 ABP ALL RIGHTS RESERVED</div>
+
+
+  <script>
+    $(document).ready(function(){
+    $('.parallax').parallax();
+    });
+
+  </script>
+  
+{%endblock%}
+
