@@ -1,37 +1,158 @@
 html,
 body {
   font-family: "Roboto", sans-serif !important;
-  background-color: #181616;
-  color: white;
-}
-
-.brand-logo {
-  font-size: 45px !important;
+  background-color: #e5e5e5;
+  color: #242423;
   width: 100%;
 }
 
-.nav-wrapper {
-  background-color: #181616 !important;
-  height: 94px !important;
-  padding: 15px;
+header {
+  height: 100vh;
+  width: 70%;
+  margin: auto;
+  align-items: center;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
-.nav-wrapper:hover {
-  background-color: #393636 !important;
-  transition: color 0.28s ease, background-color 0.28s ease;
-  transition-property: color, background-color;
-  transition-duration: 0.28s, 0.28s;
-  transition-timing-function: ease, ease;
-  transition-delay: 0s, 0s;
+.main-div {
+  width: 100%;
 }
 
-.nav-content {
-  background-color: #f5ab1b !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
+.main-content {
+  display: flex;
+  width: 70%;
 }
 
-.ul-even {
+.logo-div {
+  padding-right: 50px;
+}
+
+.logo-name-div {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 65px;
+
+  color: #242423;
+  text-align: initial;
+}
+
+.logo-description-div {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29px;
+  line-height: 34px;
+  width: 70%;
+
+  color: #242423;
+  text-align: initial;
+}
+
+.logo-text-div {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 29px;
+  line-height: 34px;
+  text-align: initial;
+  width: 70%;
+
+  color: #242423;
+}
+
+.logo-icon {
+  width: 70%;
+}
+
+.icon-div1 {
+  width: 80px;
+}
+
+.icon-div1:hover svg {
+  fill: #fca311;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex !important;
+}
+
+.nav-main {
+  width: 296px;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  background-color: #fca311;
+  padding-top: 20px;
+}
+
+.nav-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.logo-nav {
+  width: 101px;
+  height: 101px;
+  left: 28px;
+  top: 33px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-menu-item {
+  font-size: 33px;
+}
+
+.content-div {
+  width: calc(100% - 296px);
+  height: 1024px;
+  left: 296px;
+  top: 0px;
+  position: relative;
+
+  background: #242423;
+}
+
+.section-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 67px;
+  line-height: 79px;
+
+  color: #ffffff;
+}
+
+.section-div {
+  width: 100%;
+  height: 100vh;
+  /* Haight będzie obliczany względęm nagłówka */
+
+  background: #333533;
+}
+
+.scrollup {
+  width: 64px;
+  height: 64px;
+  color: #f5ab1b;
+  text-decoration: none;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+
+/* UPLOAD */
+/* .ul-even {
   display: flex;
   justify-content: space-evenly;
   padding: 8px;
@@ -48,69 +169,16 @@ body {
 }
 .tab:hover {
   background-color: #393636;
-}
+} */
 
-.main-site {
-  font-size: 144px !important;
-  text-align: center;
-  margin-top: 200px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
+/* UPLOAD */
 
-.main-text {
-  line-height: 144px;
-}
-
-/*  PARALLAX  */
-.parallax {
-  z-index: 0 !important;
-}
-
-.parallax-container {
-  position: relative;
-  overflow: hidden;
-  height: 600px !important;
-}
-/*  PARALLAX  */
-
-.section {
+/* .section_one {
   color: white;
+  background-color: #393636 !important;
 }
-
-.btn {
-  background-color: #f5ab1b !important;
-}
-
-.material-icons {
-  background: none !important;
-  font-size: 85px !important;
-}
-
-.scrollup {
-  width: 64px;
-  height: 64px;
-  color: #f5ab1b;
-  text-decoration: none;
-  position: fixed;
-  right: 50px;
-  bottom: 50px;
-  display: none;
-  z-index: 999;
-}
-
-#stopka {
-  font-family: "Roboto", sans-serif;
-  font-size: 12px;
-  background-color: #f5ab1b;
-  color: black;
-  text-align: center;
-  width: 100%;
-  height: 25px;
-  letter-spacing: 0.2px;
-  padding-top: 2px;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
+.section_two {
+  color: white;
 }
 
 .circle-clipper {
@@ -146,8 +214,13 @@ body {
   padding: 5px;
 }
 
+.material-icons {
+  background: none !important;
+  font-size: 85px !important;
+}
+
 .row {
   margin-top: 20px !important;
   margin-bottom: 20px !important;
   height: 400px !important;
-}
+} */

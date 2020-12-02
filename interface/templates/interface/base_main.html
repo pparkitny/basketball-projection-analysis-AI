@@ -37,7 +37,23 @@
     </script>
   </head>
   <body >
-    <div>{%block content%} {%endblock%}</div>
+    <nav class="nav-extended ">
+      <a href="{% url 'index' %}">
+        <div class="nav-wrapper">
+          <div class="brand-logo center">Basketball projection analysis AI</div>
+        </div>
+      </a>
+      <div class="nav-content">
+        <ul class="tabs tabs-transparent ul-even">
+          <li class="tab waves-effect waves-light "><a id="link1" href="#">HOW TO</a></li>
+          <li class="tab waves-effect waves-light "><a id="link2" href="#">UPLOAD</a></li>
+          <!-- <li class="tab {% if request.resolver_match.url_name == 'analysis'%}active{% endif %}"><a href="{% url 'analysis' %}">ANALYSIS</a></li> -->
+          <li class="tab waves-effect waves-light "><a id="link3" href="#">AUTHORS</a></li>
+        </ul> 
+      </div>
+    </nav>
+    <a href="#" class="scrollup"><i class="large material-icons">expand_less</i></a>
+    <div >{%block content%} {%endblock%}</div>
     <!--JavaScript at end of body for optimized loading-->
     <script
       type="text/javascript"

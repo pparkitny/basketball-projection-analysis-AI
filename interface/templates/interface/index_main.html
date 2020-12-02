@@ -1,0 +1,178 @@
+{%extends "interface/base.html"%}
+{% load static %}
+{%block title%} Basketball projection analysis AI {%endblock%} 
+{%block content%}
+
+<div id="info" class="section">
+  <div class="row container">
+    <br />
+    <h2>INFO</h2>
+    <br /> <br /> <br /> <br /> 
+
+    <!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">YOLOv3</a>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>YOLOv3</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui ligula, hendrerit non lorem eu, tempor pulvinar diam. Nullam massa urna, condimentum eu augue a, dapibus euismod enim. Aenean accumsan id ipsum quis cursus. Ut at faucibus nisl. Cras dui sapien, elementum nec mauris quis, posuere eleifend nunc. Integer et velit magna. Aenean ligula arcu, condimentum a tempus vel, rhoncus ac felis. In hac habitasse platea dictumst. Nulla facilisi. Aliquam erat volutpat. Ut mattis est a diam mollis volutpat.
+        <br />
+        Suspendisse eleifend pellentesque nisi, ut vestibulum sapien. Suspendisse potenti. Phasellus eget mauris urna. Ut aliquam ac leo ac fringilla. In hac habitasse platea dictumst. Integer quis lectus vitae mi iaculis feugiat. Aliquam ante sem, sagittis sit amet purus et, lobortis efficitur nunc. Mauris accumsan felis a eleifend ultrices. Integer fermentum auctor lorem, et lacinia enim convallis et. Vivamus eleifend, quam vitae pulvinar pretium, risus ipsum pretium urna, sodales vulputate sem massa ullamcorper felis. Sed ut nibh nec odio imperdiet lacinia eget nec ante. Proin aliquam ex ac congue iaculis.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Okey</a>
+    </div>
+  </div>
+
+
+
+
+
+    <!-- <div class="preloader-wrapper big active">
+      <div class="spinner-layer">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div> -->
+    <br /> <br /> <br /> <br />
+  </div>
+</div>
+
+
+
+
+<div class="parallax-container">
+  <div class="parallax">
+    <img class='parallax-img' src="{% static 'interface/img/6.jpg' %}">
+  </div>
+</div>
+
+<div id="instruction" class="section">
+  <div class="row container">
+    <br />
+    <h2>HOW TO</h2>
+    <br /> <br /> <br /> <br /> 
+    <div class="preloader-wrapper big active">
+      <div class="spinner-layer">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+    <br /> <br /> <br /> <br />
+  </div>
+</div>
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="{% static 'interface/img/rim1.jpg' %}">
+    </div>
+  </div>
+
+<div id="upload" class="section">
+  <div class="row container" id="section-id">
+    <br /> 
+    <h2>UPLOAD</h2>
+    <br />
+    <!-- Upload  -->
+    <form id="file-upload-form" class="uploader">
+      <input id="file-upload" type="file" name="fileUpload" accept="image/*" />
+
+      <label for="file-upload" id="file-drag">
+        <img id="file-image" src="#" alt="Preview" class="hidden">
+        <div id="start">
+          <div class="upload-text">
+            <i class="fa fa-download" aria-hidden="true"></i>
+            <div>Select a file or drag here</div>
+            <div id="notimage" class="hidden">Please select a video</div>
+            <!-- <span id="file-upload-btn" class="btn btn-primary">Select a file</span> -->
+          </div>
+        </div>
+        <div id="response" class="hidden">
+          <div id="messages"></div>
+          <progress class="progress" id="file-progress" value="0">
+            <span>0</span>%
+          </progress>
+        </div>
+      </label>
+    </form>
+    <br /> <br /> <br />
+    
+    <!-- <a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>ADD VIDEO</a> -->
+  </div>
+</div>
+
+<div class="parallax-container">
+  <div class="parallax">
+    <img src="{% static 'interface/img/66.jpg' %}">
+  </div>
+</div>
+
+<div id="authors" class="section">
+  <div class="row container" id="section-id">
+    <br />
+    <h2>AUTHORS</h2>
+    <br />
+
+    <div class="authors-container">
+
+      <div class="authors">
+        <div class="authors-text">
+          <i class="material-icons">person</i>
+        </div>
+        <div class="authors-text">
+          Anita Szumiec
+        </div>
+      </div>
+
+      <div class="authors">
+        <div class="authors-text">
+          <i class="material-icons">person</i>
+        </div>
+        <div class="authors-text">
+          Bartłomiej Madejski
+        </div>
+      </div>
+
+      <div class="authors">
+        <div class="authors-text">
+          <i class="material-icons">person</i>
+        </div>
+        <div class="authors-text">
+          Patryk Parkitny
+        </div>
+      </div>
+
+    </div>
+    
+
+    <br /> <br /> 
+  </div>
+
+</div>
+<div id="stopka">  Strona wykonana w celu ukazania możliwości przyszłego rozwoju programu | © 2020 ALL RIGHTS RESERVED</div>
+
+
+  <script>
+    $(document).ready(function(){
+    $('.parallax').parallax();
+    });
+
+    $(document).ready(function(){
+    $('.modal').modal();
+  });
+
+  </script>
+  
+{%endblock%}
+

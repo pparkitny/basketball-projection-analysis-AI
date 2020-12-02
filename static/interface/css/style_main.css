@@ -1,0 +1,161 @@
+html,
+body {
+  font-family: "Roboto", sans-serif !important;
+  background-color: #181616;
+  color: white;
+}
+
+.modal-content {
+  color: black !important;
+}
+
+.brand-logo {
+  font-size: 45px !important;
+  width: 100%;
+}
+
+.nav-wrapper {
+  background-color: #181616 !important;
+  height: 94px !important;
+  padding: 15px;
+}
+
+.nav-wrapper:hover {
+  background-color: #393636 !important;
+  transition: color 0.28s ease, background-color 0.28s ease;
+  transition-property: color, background-color;
+  transition-duration: 0.28s, 0.28s;
+  transition-timing-function: ease, ease;
+  transition-delay: 0s, 0s;
+}
+
+.nav-content {
+  background-color: #f5ab1b !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.ul-even {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 8px;
+  height: 64px !important;
+}
+.ul-even a {
+  font-size: 24px !important;
+  color: white !important;
+}
+
+.ul-even li {
+  background-color: #181616;
+  width: 300px;
+}
+.tab:hover {
+  background-color: #393636;
+}
+
+.main-site {
+  font-size: 144px !important;
+  text-align: center;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-text {
+  line-height: 144px;
+}
+
+/*  PARALLAX  */
+.parallax {
+  z-index: 0 !important;
+}
+
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+  height: 600px !important;
+}
+/*  PARALLAX  */
+
+.section_one {
+  color: white;
+}
+.section_two {
+  color: white;
+  background-color: #393636 !important;
+}
+
+.btn {
+  background-color: #f5ab1b !important;
+}
+
+.material-icons {
+  background: none !important;
+  font-size: 85px !important;
+}
+
+.scrollup {
+  width: 64px;
+  height: 64px;
+  color: #f5ab1b;
+  text-decoration: none;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  display: none;
+  z-index: 999;
+}
+
+#stopka {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  background-color: #f5ab1b;
+  color: black;
+  text-align: center;
+  width: 100%;
+  height: 25px;
+  letter-spacing: 0.2px;
+  padding-top: 2px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.circle-clipper {
+  border-color: #f5ab1b !important;
+}
+
+#section-id {
+  padding-top: 30px;
+}
+
+.authors-container {
+  display: flex;
+}
+
+.authors {
+  display: block;
+  flex: auto;
+  text-overflow: ellipsis;
+}
+
+.authors:hover {
+  background-color: white !important;
+  color: black !important;
+  cursor: default;
+  transition: all 0.4s ease;
+}
+
+.authors-text {
+  font-size: 30px !important;
+  flex: auto;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.row {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  height: 400px !important;
+}
