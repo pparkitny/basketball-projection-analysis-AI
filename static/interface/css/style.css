@@ -82,7 +82,7 @@ main {
 }
 
 .nav-main {
-  width: 296px;
+  width: 196px;
   height: 100vh;
   left: 0px;
   top: 0px;
@@ -96,22 +96,23 @@ main {
   left: 0;
 }
 
-.logo-nav {
-  width: 101px;
-  height: 101px;
-  left: 28px;
-  top: 33px;
-}
-
 .nav-menu {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+.logo-nav {
+  padding-left: 10%;
+  height: 10%;
+  width: fit-content;
+}
+
 .nav-menu-item {
-  font-size: 33px;
+  font-size: 22px;
   cursor: pointer;
+  padding-left: 10%;
+  text-align: left;
 }
 
 .nav-menu-item:hover {
@@ -121,9 +122,9 @@ main {
 }
 
 .content-div {
-  width: calc(100% - 296px);
+  width: calc(100% - 196px);
   height: 1024px;
-  left: 296px;
+  left: 196px;
   top: 0px;
   position: relative;
 }
