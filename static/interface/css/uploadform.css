@@ -41,7 +41,7 @@ p {
   text-align: center;
   background-color: #181616 !important;
   border-radius: 7px;
-  border: 3px solid #f5ab1b;
+  border: 2px dashed white;
   transition: all 0.2s ease;
   user-select: none;
   color: white !important;
@@ -50,7 +50,9 @@ p {
   background-color: white !important;
   border-color: white;
   cursor: pointer;
-  color: #f5ab1b !important;
+  color: black !important;
+  transition: all 0.2s ease;
+  border: 1px dashed black;
 }
 
 /* .uploader label.hover #start i.fa {
