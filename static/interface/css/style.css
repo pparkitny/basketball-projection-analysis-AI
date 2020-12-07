@@ -1,7 +1,7 @@
 html,
 body {
   font-family: "Roboto", sans-serif !important;
-  background-color: #e5e5e5;
+  background-color: #f3f4f5;
   color: #242423;
   width: 100%;
 }
@@ -111,6 +111,13 @@ main {
 
 .nav-menu-item {
   font-size: 33px;
+  cursor: pointer;
+}
+
+.nav-menu-item:hover {
+  background-color: white;
+  color: #fca311;
+  transition: all 0.2s ease;
 }
 
 .content-div {
@@ -119,8 +126,6 @@ main {
   left: 296px;
   top: 0px;
   position: relative;
-
-  background: #242423;
 }
 
 .section-text {
@@ -129,16 +134,54 @@ main {
   font-weight: normal;
   font-size: 67px;
   line-height: 79px;
-
   color: #ffffff;
+  padding-top: 5%;
 }
 
-.section-div {
+.about-text {
+  color: white !important;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 34px;
+  padding-top: 5%;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.howto-text {
+  color: white !important;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 34px;
+  padding-top: 5%;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.section-div-1 {
+  width: 100%;
+  height: 100vh;
+  /* Haight będzie obliczany względęm nagłówka */
+
+  background: #242423 !important;
+}
+
+.section-div-2 {
   width: 100%;
   height: 100vh;
   /* Haight będzie obliczany względęm nagłówka */
 
   background: #333533;
+}
+
+.upload-div {
+  padding: 150px;
 }
 
 .scrollup {
@@ -152,7 +195,11 @@ main {
 }
 
 /* UPLOAD */
-/* .ul-even {
+
+.uploader label {
+  background-color: #242423 !important;
+}
+.ul-even {
   display: flex;
   justify-content: space-evenly;
   padding: 8px;
@@ -164,46 +211,38 @@ main {
 }
 
 .ul-even li {
-  background-color: #181616;
+  background-color: #333533;
   width: 300px;
 }
 .tab:hover {
   background-color: #393636;
-} */
+}
 
 /* UPLOAD */
 
-/* .section_one {
-  color: white;
-  background-color: #393636 !important;
-}
-.section_two {
-  color: white;
-}
-
-.circle-clipper {
-  border-color: #f5ab1b !important;
-}
-
-#section-id {
-  padding-top: 30px;
-}
-
+/* AUTHRS */
 .authors-container {
   display: flex;
+  width: 100%;
+  padding-top: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .authors {
   display: block;
   flex: auto;
   text-overflow: ellipsis;
+  height: 100%;
+  width: 100%;
+  color: white !important;
 }
 
 .authors:hover {
   background-color: white !important;
-  color: black !important;
+  color: #242423 !important;
   cursor: default;
-  transition: all 0.4s ease;
+  transition: all 0.2s ease;
 }
 
 .authors-text {
@@ -223,4 +262,6 @@ main {
   margin-top: 20px !important;
   margin-bottom: 20px !important;
   height: 400px !important;
-} */
+}
+
+/* AUTHRS */

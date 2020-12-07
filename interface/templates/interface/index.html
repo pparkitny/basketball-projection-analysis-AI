@@ -5,7 +5,7 @@
 
 <header>
 
-    <div class="main-content">
+    <div id="main" class="main-content">
       <div class="logo-div">
         <img  src="{% static 'interface/img/logo1.png' %}">
       </div>
@@ -24,7 +24,7 @@
 
     <div class="logo-icon">
       <div class="icon-div1">
-        <a href="#" id="link1"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <a href="#" id="link0"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           viewBox="0 0 490.4 490.4" style="enable-background:new 0 0 490.4 490.4;" xml:space="preserve">
        <g>
          <g>
@@ -45,25 +45,25 @@
 
 <main>
 
-  <nav id="instruction" class="nav-main">
-    <a class="logo-nav" href="#"><img src="{% static 'interface/img/logo2.png' %}"></a>
+  <nav  class="nav-main">
+    <a class="logo-nav" href="#" id='link6'><img src="{% static 'interface/img/logo2.png' %}"></a>
 
 <div class="nav-menu">
 
-    <div class="nav-menu-item">
+    <div href="#" id="link1" class="nav-menu-item">
       About
     </div>
 
-    <div class="nav-menu-item">
+    <div href="#" id="link2" class="nav-menu-item">
       How to
     </div>
-    <div class="nav-menu-item">
+    <div href="#" id="link3" class="nav-menu-item">
       Upload
     </div>
-    <div class="nav-menu-item">
+    <div href="#" id="link4" class="nav-menu-item">
       Analysis
     </div>
-    <div class="nav-menu-item">
+    <div href="#" id="link5" class="nav-menu-item">
       Authors
     </div>
 </div>
@@ -73,61 +73,77 @@
 
   <div class="content-div">
 
-    <div class="section-text">
-      ABOUT
+    <div id="about" class="section-div-1">
+
+      <div class="section-text">ABOUT</div>
+
+      <div class="about-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero vel nisl venenatis rutrum non ac arcu. Ut porttitor tortor tellus, sit amet mattis urna ultricies eu. Mauris tincidunt interdum ornare. Etiam sed imperdiet tortor. Aliquam gravida posuere augue, sed lobortis felis condimentum sit amet. Etiam eget pellentesque nunc, in placerat dui. Nam quam arcu, efficitur in massa non, pharetra aliquet justo. Praesent ac fermentum ligula. Vestibulum nec ex purus. Ut varius arcu non nunc euismod imperdiet.
+        <br/> <br/>
+        Praesent suscipit efficitur dui id sagittis. Fusce egestas dui sit amet dictum sodales. Nunc egestas ante ac enim sodales, vitae aliquet urna molestie. Curabitur laoreet nunc ornare maximus condimentum. Duis sagittis sapien non purus dignissim, et iaculis diam auctor. Integer vel fermentum libero. Vivamus vestibulum nibh mauris, a consequat mi viverra aliquam. Vivamus et risus scelerisque, pharetra nulla vel, mattis risus. Phasellus vel consequat mauris, interdum placerat quam. Curabitur in turpis nibh. Quisque vulputate urna in elit consequat varius. Nulla rhoncus condimentum efficitur.
+      </div>
+  
+
+
+
     </div>
 
-    <div class="section-div">
+    <div id="howto" class="section-div-2">
+
+      <div class="section-text">HOW TO</div>
+
+      <div class="howto-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero vel nisl venenatis rutrum non ac arcu. Ut porttitor tortor tellus, sit amet mattis urna ultricies eu. Mauris tincidunt interdum ornare. Etiam sed imperdiet tortor. Aliquam gravida posuere augue, sed lobortis felis condimentum sit amet. Etiam eget pellentesque nunc, in placerat dui. Nam quam arcu, efficitur in massa non, pharetra aliquet justo. Praesent ac fermentum ligula. Vestibulum nec ex purus. Ut varius arcu non nunc euismod imperdiet.
+        <br/> <br/>
+        Praesent suscipit efficitur dui id sagittis. Fusce egestas dui sit amet dictum sodales. Nunc egestas ante ac enim sodales, vitae aliquet urna molestie. Curabitur laoreet nunc ornare maximus condimentum. Duis sagittis sapien non purus dignissim, et iaculis diam auctor. Integer vel fermentum libero. Vivamus vestibulum nibh mauris, a consequat mi viverra aliquam. Vivamus et risus scelerisque, pharetra nulla vel, mattis risus. Phasellus vel consequat mauris, interdum placerat quam. Curabitur in turpis nibh. Quisque vulputate urna in elit consequat varius. Nulla rhoncus condimentum efficitur.
+      </div>
+
+      </div>
+
+    <div id="upload" class="section-div-1">
+
+      <div class="section-text">UPLOAD</div>
+
+      <div class="upload-div">
+
+        <form id="file-upload-form" class="uploader">
+          <input id="file-upload" type="file" name="fileUpload" accept="image/*" />
+    
+          <label for="file-upload" id="file-drag">
+            <img id="file-image" src="#" alt="Preview" class="hidden">
+            <div id="start">
+              <div class="upload-text">
+                <i class="fa fa-download" aria-hidden="true"></i>
+                <div>Select a file or drag here</div>
+                <div id="notimage" class="hidden">Please select a video</div>
+                
+              </div>
+            </div>
+            <div id="response" class="hidden">
+              <div id="messages"></div>
+              <progress class="progress" id="file-progress" value="0">
+                <span>0</span>%
+              </progress>
+            </div>
+          </label>
+        </form>
+        
+      </div>
+
+    </div> 
+
+
+    <div id="analysis" class="section-div-2">
+
+      <div class="section-text">ANALYSIS</div>
 
     </div>
 
-  </div>
+    <div id="authors" class="section-div-1">
 
-
-</main>
-
-
-<!-- <div id="upload" class="section_one">
-  <div class="row container" id="section-id">
-    <br /> 
-    <h2>UPLOAD</h2>
-    <br />
-    
-    <form id="file-upload-form" class="uploader">
-      <input id="file-upload" type="file" name="fileUpload" accept="image/*" />
-
-      <label for="file-upload" id="file-drag">
-        <img id="file-image" src="#" alt="Preview" class="hidden">
-        <div id="start">
-          <div class="upload-text">
-            <i class="fa fa-download" aria-hidden="true"></i>
-            <div>Select a file or drag here</div>
-            <div id="notimage" class="hidden">Please select a video</div>
-            
-          </div>
-        </div>
-        <div id="response" class="hidden">
-          <div id="messages"></div>
-          <progress class="progress" id="file-progress" value="0">
-            <span>0</span>%
-          </progress>
-        </div>
-      </label>
-    </form>
-    <br /> <br /> <br />
-    
-  </div>
-</div> -->
-
-<!-- 
-<div id="authors" class="section_two">
-  <div class="row container" id="section-id">
-    <br />
-    <h2>AUTHORS</h2>
-    <br />
+      <div class="section-text">AUTHORS</div>
 
     <div class="authors-container">
-
       <div class="authors">
         <div class="authors-text">
           <i class="material-icons">person</i>
@@ -156,12 +172,11 @@
       </div>
 
     </div>
-    
 
-    <br /> <br /> 
   </div>
 
-</div> -->
+</main>
+
   <script>
 
     $(document).ready(function(){
