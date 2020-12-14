@@ -8,4 +8,5 @@ urlpatterns = [
     path('upload/', views.upload, name='upload'),
     path('analysis/', views.analysis, name='analysis'),
     path('authors/', views.authors, name='authors'),
+    path('status/<str:task_id>', views.get_task_status, name='status'),
 ]

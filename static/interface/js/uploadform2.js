@@ -60,14 +60,17 @@ function ekUpload(){
       // console.log(fileType);
       var imageName = file.name;
   
-      var isGood = (/\.(?=mp4)/gi).test(imageName);
+      var isGood = (/\.(?=gif|jpg|png|jpeg)/gi).test(imageName);
       if (isGood) {
         document.getElementById('start').classList.add("hidden");
         document.getElementById('response').classList.remove("hidden");
         document.getElementById('notimage').classList.add("hidden");
         // Thumbnail Preview
+        document.getElementById('file-image').classList.remove("hidden");
+        document.getElementById('file-image').src = URL.createObjectURL(file);
       }
       else {
+        document.getElementById('file-image').classList.add("hidden");
         document.getElementById('notimage').classList.remove("hidden");
         document.getElementById('start').classList.remove("hidden");
         document.getElementById('response').classList.add("hidden");
@@ -92,7 +95,7 @@ function ekUpload(){
     }
   
     function uploadFile(file) {
-      console.log(file)
+  
       var xhr = new XMLHttpRequest(),
         fileInput = document.getElementById('class-roster-file'),
         pBar = document.getElementById('file-progress'),
@@ -119,12 +122,8 @@ function ekUpload(){
           xhr.open('POST', document.getElementById('file-upload-form').action, true);
           xhr.setRequestHeader('X-File-Name', file.name);
           xhr.setRequestHeader('X-File-Size', file.size);
-          // xhr.setRequestHeader('Content-Type', 'multipart/form-data');
-          var fd = new FormData();
-          fd.append("filename", file.name);
-          fd.append("csrfmiddlewaretoken", $("#file-upload-form").children().first().val())
-          fd.append("drive_file", file);
-          xhr.send(fd);
+          xhr.setRequestHeader('Content-Type', 'multipart/form-data');
+          xhr.send(file);
         } else {
           output('Please upload a smaller file (< ' + fileSizeLimit + ' MB).');
         }
@@ -139,5 +138,3 @@ function ekUpload(){
     }
   }
   ekUpload();
-
-  // <input type="hidden" name="csrfmiddlewaretoken" value="vsRqVCyjpMCz5t4OFIvgSuvRWUKwWtrL8LB8ZaLpFiaxDPbeutsVh4JvYitaLSBy"></input>

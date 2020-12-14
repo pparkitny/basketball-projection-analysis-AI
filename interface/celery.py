@@ -20,7 +20,8 @@ app.conf.update(
     result_expires=1800,  # 1800 secs = 30 minutes
 )
 
-app.conf.broker_transport_options = {"visibility_timeout": 7200} # 2h
+app.conf.broker_transport_options = {
+    "visibility_timeout": 3600 * 24 * 360}  # 1h * 24 * 360 = 360d
 
 app.conf.timezone = 'UTC'  # UTC server time
 
