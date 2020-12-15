@@ -109,11 +109,12 @@
 
       <div class="upload-div">
 
-        <form id="file-upload-form" class="uploader">
-          <input id="file-upload" type="file" name="fileUpload" accept="image/*" />
+        <form method="POST" action="upload/" id="file-upload-form" class="uploader">
+        {%csrf_token%}
+          <input id="file-upload" type="file" name="fileUpload" accept="video/mp4" />
     
           <label for="file-upload" id="file-drag">
-            <img id="file-image" src="#" alt="Preview" class="hidden">
+            <!-- <img id="file-image" src="#" alt="Preview" class="hidden"> -->
             <div id="start">
               <div class="upload-text">
                 <i class="fa fa-download" aria-hidden="true"></i>
@@ -125,7 +126,7 @@
             <div id="response" class="hidden">
               <div id="messages"></div>
               <progress class="progress" id="file-progress" value="0">
-                <span>0</span>%
+                <span id="file-progress-procent">0</span>%
               </progress>
             </div>
           </label>
@@ -139,80 +140,12 @@
     <div id="analysis" class="section-div-analysis">
 
       <div class="section-text-analysis">ANALYSIS</div>
+      <div id="section-text-analysis-content" style="display: none"></div>
+      <!-- <div id="section-text-analysis-content">
+        
+      </div> -->
 
-        <div class="video-div">
-
-          <video
-              id="my-video"
-              class="video-js"
-              controls
-              preload="auto"
-              width="640"
-              height="264"
-              data-setup="{}"
-            >
-            <source src="{% static 'interface/video/test2.mp4' %}" type="video/mp4" />
-            <source src="MY_VIDEO.webm" type="video/webm" />
-            <p class="vjs-no-js">
-              To view this video please enable JavaScript, and consider upgrading to a
-              web browser that
-              <a href="https://videojs.com/html5-video-support/" target="_blank"
-                >supports HTML5 video</a
-              >
-            </p>
-          </video>
-
-        </div>
-
-        <div class="video-div">
-
-          <video
-              id="my-video"
-              class="video-js"
-              controls
-              preload="auto"
-              width="640"
-              height="264"
-              data-setup="{}"
-            >
-            <source src="{% static 'interface/video/test2.mp4' %}" type="video/mp4" />
-            <source src="MY_VIDEO.webm" type="video/webm" />
-            <p class="vjs-no-js">
-              To view this video please enable JavaScript, and consider upgrading to a
-              web browser that
-              <a href="https://videojs.com/html5-video-support/" target="_blank"
-                >supports HTML5 video</a
-              >
-            </p>
-          </video>
-
-        </div>
-
-        <div class="video-div">
-
-          <video
-              id="my-video"
-              class="video-js"
-              controls
-              preload="auto"
-              width="640"
-              height="264"
-              data-setup="{}"
-            >
-            <source src="{% static 'interface/video/test2.mp4' %}" type="video/mp4" />
-            <source src="MY_VIDEO.webm" type="video/webm" />
-            <p class="vjs-no-js">
-              To view this video please enable JavaScript, and consider upgrading to a
-              web browser that
-              <a href="https://videojs.com/html5-video-support/" target="_blank"
-                >supports HTML5 video</a
-              >
-            </p>
-          </video>
-
-        </div>
-
-      </div>
+    </div>
 
     <div id="authors" class="section-div-1">
 
@@ -254,6 +187,7 @@
 
 <script src="https://vjs.zencdn.net/7.10.2/video.js"></script>
 
+
   <script>
 
     $(document).ready(function(){
@@ -262,5 +196,17 @@
 
   </script>
   <script src="{% static 'interface/js/jqscrollto.js' %}"></script>
+
+  <script>
+    function AnalysisDone(result){
+      var text = "<div class=\"video-div\"> <video id=\"my-video\" class=\"video-js\" controls preload=\"auto\" width=\"640\" height=\"264\" data-setup=\"{}\" > <source src=\"{% static 'interface/video/video-frames.mp4' %}\" type=\"video/mp4\" /> <p class=\"vjs-no-js\"> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\"https://videojs.com/html5-video-support/\" target=\"_blank\" >supports HTML5 video</a > </p> </video> </div> <div class=\"video-div\"> <video id=\"my-video\" class=\"video-js\" controls preload=\"auto\" width=\"640\" height=\"264\" data-setup=\"{}\" > <source src=\"{% static 'interface/video/video-yolo.mp4' %}\" type=\"video/mp4\" /> <p class=\"vjs-no-js\"> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\"https://videojs.com/html5-video-support/\" target=\"_blank\" >supports HTML5 video</a > </p> </video> </div> <div class=\"video-div\"> <video id=\"my-video\" class=\"video-js\" controls preload=\"auto\" width=\"640\" height=\"264\" data-setup=\"{}\" > <source src=\"{% static 'interface/video/video-openpose-converted.mp4' %}\" type=\"video/mp4\" /> <p class=\"vjs-no-js\"> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\"https://videojs.com/html5-video-support/\" target=\"_blank\" >supports HTML5 video</a > </p> </video> </div>"
+      var text2 = "<div id=\'video-content\'> <div id=\'row\' style=\'width: 43%\'> <div class=\'video-div\' id=\'column\'> <p>Input Video</p> <video id=\'my-video\' class=\'video-js\' controls preload=\'auto\' width=\'640\' height=\'264\' data-setup=\'{}\' > <source src=\'{% static 'interface/video/video-frames.mp4' %}\' type=\'video/mp4\' /> <p class=\'vjs-no-js\'> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\'https://videojs.com/html5-video-support/\' target=\'_blank\' >supports HTML5 video</a > </p> </video> </div> <div class=\'video-div\' id=\'column\'> <p>YOLO</p> <video id=\'my-video\' class=\'video-js\' controls preload=\'auto\' width=\'640\' height=\'264\' data-setup=\'{}\' > <source src=\'{% static 'interface/video/video-yolo.mp4' %}\' type=\'video/mp4\' /> <p class=\'vjs-no-js\'> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\'https://videojs.com/html5-video-support/\' target=\'_blank\' >supports HTML5 video</a > </p> </video> </div> </div> <div id=\'row\' style=\'width: 44%\'> <div class=\'video-div\' id=\'column\'> <p>Trajectory of throw</p> <video id=\'my-video\' class=\'video-js\' controls preload=\'auto\' width=\'640\' height=\'264\' data-setup=\'{}\' > <source src=\'{% static 'interface/video/trajektoria.mp4' %}\' type=\'video/mp4\' /> <p class=\'vjs-no-js\'> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\'https://videojs.com/html5-video-support/\' target=\'_blank\' >supports HTML5 video</a > </p> </video> </div> <div class=\'video-div\' id=\'column\'> <p>Openpose</p> <video id=\'my-video\' class=\'video-js\' controls preload=\'auto\' width=\'640\' height=\'264\' data-setup=\'{}\' > <source src=\'{% static 'interface/video/video-openpose-converted.mp4' %}\' type=\'video/mp4\' /> <p class=\'vjs-no-js\'> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\'https://videojs.com/html5-video-support/\' target=\'_blank\' >supports HTML5 video</a > </p> </video> </div> </div> </div> <div id=\'image-content\'> <div id=\'row2\' style=\'width: 44%\'> <div id=\'column2\'> <p>Position 1</p> <img id=\'imgsize\' src=\'{% static 'interface/img/analysis/pozycja_1.jpg' %}\'> </div> <div id=\'column2\'> <p>Position 2</p> <img id=\'imgsize\' src=\'{% static 'interface/img/analysis/pozycja_4.jpg' %}\'> </div> <div id=\'column2\'> <p>Position 3</p> <img id=\'imgsize\' src=\'{% static 'interface/img/analysis/pozycja_2.jpg' %}\'> </div> <div id=\'column2\'> <p>Position 4</p> <img id=\'imgsize\' src=\'{% static 'interface/img/analysis/pozycja_3.jpg' %}\'> </div> </div> </div> <pre id=\'json-content\' style=\'color: white\'>  </pre>"
+      var content = $("#section-text-analysis-content")
+      var content2 = $("#analysis")
+      content.css("display", "unset")
+      content.html(text2)
+      $("#json-content").html(JSON.stringify(result, undefined, 4).replaceAll("{","").replaceAll("}","").replaceAll("\"","").replaceAll(",",""))
+      }
+    </script>
 {%endblock%}
 

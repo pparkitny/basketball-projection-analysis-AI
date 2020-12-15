@@ -57,34 +57,28 @@ def authors(request):
 
 @celery.task(name='video.analysis', bind=True)
 def video(self, path):
-    self.update_state(state="PROGRESS", meta={"step": 1, "max": 6})
-    print("Frames Count")
+    self.update_state(state="PROGRESS", meta={"step": 1, "max": 7})
     frames_count(path)
 
-    self.update_state(state="PROGRESS", meta={"step": 2, "max": 6})
-    print("OPENPOSE")
+    self.update_state(state="PROGRESS", meta={"step": 2, "max": 7})
     openpose(path)
 
-    self.update_state(state="PROGRESS", meta={"step": 3, "max": 6})
-    print("avi")
+    self.update_state(state="PROGRESS", meta={"step": 3, "max": 7})
     avi_to_mp4(path)
 
-    self.update_state(state="PROGRESS", meta={"step": 4, "max": 6})
-    print("cvd")
+    self.update_state(state="PROGRESS", meta={"step": 4, "max": 7})
     customvideodetecion(path)
 
-    self.update_state(state="PROGRESS", meta={"step": 5, "max": 6})
-    print("tommy")
+    self.update_state(state="PROGRESS", meta={"step": 5, "max": 7})
     tomanyjsons(path)
 
-    self.update_state(state="PROGRESS", meta={"step": 6, "max": 6})
-    print("anal")
-    analysis(path)
-
-    return "Done"
+    self.update_state(state="PROGRESS", meta={"step": 6, "max": 7})
+    result = analysis(path)
+    return result
 
 
 def get_task_status(request, task_id):
+    print(task_id)
     task = video.AsyncResult(task_id)
 
     if task.state == 'SUCCESS':
@@ -96,7 +90,7 @@ def get_task_status(request, task_id):
         response = {
             'state': task.state,
             'step': task.info.get('step', 0),
-            'max': task.info.get('max', 6),
+            'max': task.info.get('max', 7),
         }
     else:
         response = {
@@ -104,4 +98,4 @@ def get_task_status(request, task_id):
             'step': str(task.info),  # exception
         }
 
-    return json.dumps(response)
+    return JsonResponse(response)

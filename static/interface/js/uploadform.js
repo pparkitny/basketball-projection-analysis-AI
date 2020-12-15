@@ -108,10 +108,16 @@ function ekUpload(){
           // File received / failed
           xhr.onreadystatechange = function(e) {
             if (xhr.readyState == 4) {
-              // Everything is good!
-  
-              // progress.className = (xhr.status == 200 ? "success" : "failure");
-              // document.location.reload(true);
+              var response = JSON.parse(xhr.response)
+                if(response.task_id){
+                  checkStatus(response.task_id)
+                }
+                else
+                {
+                  alert(response.error)
+                }
+
+
             }
           };
   
@@ -125,6 +131,7 @@ function ekUpload(){
           fd.append("csrfmiddlewaretoken", $("#file-upload-form").children().first().val())
           fd.append("drive_file", file);
           xhr.send(fd);
+
         } else {
           output('Please upload a smaller file (< ' + fileSizeLimit + ' MB).');
         }
@@ -140,4 +147,44 @@ function ekUpload(){
   }
   ekUpload();
 
-  // <input type="hidden" name="csrfmiddlewaretoken" value="vsRqVCyjpMCz5t4OFIvgSuvRWUKwWtrL8LB8ZaLpFiaxDPbeutsVh4JvYitaLSBy"></input>
+  function checkStatus(task_id){
+    $.ajax({
+      type: "GET",
+      url: "status/" + task_id.toString() + "/",
+      success: function(response){
+        if(response.state == 'PROGRESS')
+        {
+          var progress = parseInt(response.step)/parseInt(response.max)
+          if($("#file-progress").attr("max") != parseInt(response.max))
+          {
+            $("#file-progress").attr("max", parseInt(response.max))
+          }
+          
+          $("#file-progress").val(parseInt(response.step))
+          $("#file-progress-procent").val(Math.round(progress * 100))
+          setTimeout(()=>{
+            checkStatus(task_id)
+          }, 1000)
+        }
+        else if(response.state == "SUCCESS")
+        {
+          console.log(response.result)
+          console.log(JSON.stringify(response.result))
+          $("#file-progress").val($("#file-progress").val() + 1)
+
+          AnalysisDone(response.result)
+        }
+        else if(response.state == "FAILURE"){
+          alert(response.step)
+          $("#file-progress").val(1)
+        }
+        else
+        {
+          setTimeout(()=>{
+            checkStatus(task_id)
+          }, 1000)
+        }
+        
+      }
+    })
+  }

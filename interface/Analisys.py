@@ -16,6 +16,7 @@ def analysis(path=None):
         photo = os.path.join(path.replace("video", ""), "img/analysis")
         pozycja = os.path.join(path.replace(
             "video", ""), "img/analysis/pozycja_")
+        jsonPath = os.path.join(path, "analiza.json")
     else:
         json_yolo = '..\\static\\interface\\video\\yolo.json'
         json_openpose = '..\\static\\interface\\video\\openpose.json'
@@ -23,6 +24,7 @@ def analysis(path=None):
         trajektoria = '..\\static\\interface\\video\\trajektoria.mp4'
         photo = "..\\static\\interface\\img\\analysis"
         pozycja = "..\\static\\interface\\img\\analysis\\pozycja_"
+        jsonPath = '..\\static\\interface\\video\\analiza.json'
 
     data = []
 
@@ -468,13 +470,14 @@ def analysis(path=None):
         counter_start = five_frames[3]-five_frames[0]  # ile klatek
         counter_start = round((counter_start/30), 2)  # sekundy
         print("Przygotowanie do rzutu trwa", counter_start, "s")
-        to_json.update({"Przygotowanie do rzutu trwa": counter_start})
+        to_json.update(
+            {"Przygotowanie do rzutu trwa": str(counter_start) + "s"})
 
         # Ile minęło od pozycji czwartej do piątek (rzut)
         counter_throw = five_frames[4]-five_frames[3]  # ile klatek
         counter_throw = round((counter_throw/30), 2)   # sekundy
         print("Rzut trwa", counter_throw, "s")
-        to_json.update({"Rzut trwa": counter_throw})
+        to_json.update({"Rzut trwa": str(counter_throw) + "s"})
 
         # Skuteczność rzutu
         if throw == True:
@@ -500,7 +503,7 @@ def analysis(path=None):
         path = (sum_distance*wsp)/100  # przeliczenie lotu pilki na cm
         speed = round(path / counter_throw, 2)
         print("Prędkość piłki to", speed, 'm/s')
-        to_json.update({"Prędkość piłki to": speed})
+        to_json.update({"Prędkość piłki to": str(speed) + "m/s"})
 
         # Wyskok
         df_pos = df_new[df_new['frame'] == five_frames[0]]
@@ -513,7 +516,7 @@ def analysis(path=None):
         hop_cm = round(hop*wsp, 2)  # wyskok w cm
         if (hop_cm > 5):
             print("Wysokość wyskoku wynosi", hop_cm, "cm")
-            to_json.update({"Wysokość wyskoku wynosi": hop_cm})
+            to_json.update({"Wysokość wyskoku wynosi": str(hop_cm) + "cm"})
 
         # Kąt łokcia rzut prawą ręką
         df_pos_elbow = df_new[df_new['frame'] == five_frames[2]]
@@ -554,18 +557,19 @@ def analysis(path=None):
         if angle_right >= angle_left:
             print("Kąt łokcia w pozycji 3 to", angle_right, "stopni")
             to_json.update(
-                {"Kąt łokcia w pozycji 3 to": angle_right})
+                {"Kąt łokcia w pozycji 3 to": str(angle_right) + " stopni"})
         else:
             print("Kąt łokcia w pozycji 3 to", angle_left, "stopni")
             to_json.update(
-                {"Kąt łokcia w pozycji 3 to": angle_left})
+                {"Kąt łokcia w pozycji 3 to": str(angle_left) + " stopni"})
     else:
         print("Film się nie nadaje")
         to_json.update(
             {"Film się nie nadaje": "Oj nie byczq"})
 
-    with open("../static/interface/video/analiza.json", 'w') as f:
+    with open(jsonPath, 'w+') as f:
         f.write(json.dumps(to_json))
+    return to_json
 
 
 if __name__ == "__main__":
