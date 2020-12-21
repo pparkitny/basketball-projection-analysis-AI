@@ -1,0 +1,3036 @@
+[
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.8018741607666,
+            "box_points": [
+                230,
+                546,
+                453,
+                1030
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.06678199768066,
+            "box_points": [
+                1394,
+                233,
+                1519,
+                336
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 97.17397093772888,
+            "box_points": [
+                391,
+                736,
+                444,
+                789
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.82579350471497,
+            "box_points": [
+                229,
+                544,
+                456,
+                1032
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.05776977539062,
+            "box_points": [
+                1394,
+                233,
+                1519,
+                336
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 65.4905378818512,
+            "box_points": [
+                366,
+                727,
+                481,
+                787
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 98.424232006073,
+            "box_points": [
+                396,
+                729,
+                443,
+                784
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.82612729072571,
+            "box_points": [
+                228,
+                548,
+                457,
+                1032
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.02909994125366,
+            "box_points": [
+                1394,
+                233,
+                1519,
+                336
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 93.14565062522888,
+            "box_points": [
+                387,
+                718,
+                456,
+                784
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.81833696365356,
+            "box_points": [
+                229,
+                549,
+                458,
+                1030
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.08076524734497,
+            "box_points": [
+                1394,
+                233,
+                1519,
+                336
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 95.99468111991882,
+            "box_points": [
+                387,
+                709,
+                464,
+                772
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.80115294456482,
+            "box_points": [
+                229,
+                548,
+                458,
+                1032
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.04634952545166,
+            "box_points": [
+                1394,
+                233,
+                1519,
+                336
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 97.59730100631714,
+            "box_points": [
+                389,
+                708,
+                467,
+                770
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.81558322906494,
+            "box_points": [
+                228,
+                548,
+                459,
+                1032
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 98.96658062934875,
+            "box_points": [
+                1394,
+                233,
+                1519,
+                336
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 97.25781679153442,
+            "box_points": [
+                388,
+                705,
+                468,
+                768
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.81147646903992,
+            "box_points": [
+                228,
+                546,
+                457,
+                1032
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 98.98524880409241,
+            "box_points": [
+                1394,
+                233,
+                1519,
+                336
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 96.76738381385803,
+            "box_points": [
+                389,
+                703,
+                469,
+                767
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.80817437171936,
+            "box_points": [
+                229,
+                548,
+                457,
+                1032
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.0028977394104,
+            "box_points": [
+                1394,
+                233,
+                1519,
+                336
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 96.13281488418579,
+            "box_points": [
+                387,
+                703,
+                471,
+                763
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.81675744056702,
+            "box_points": [
+                229,
+                544,
+                456,
+                1032
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.01703596115112,
+            "box_points": [
+                1394,
+                233,
+                1519,
+                336
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 94.90557909011841,
+            "box_points": [
+                388,
+                702,
+                473,
+                762
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.80347156524658,
+            "box_points": [
+                230,
+                545,
+                454,
+                1032
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 98.92100691795349,
+            "box_points": [
+                1394,
+                233,
+                1519,
+                336
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 93.63114833831787,
+            "box_points": [
+                389,
+                700,
+                473,
+                761
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.81421828269958,
+            "box_points": [
+                228,
+                547,
+                452,
+                1031
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 98.87298345565796,
+            "box_points": [
+                1394,
+                233,
+                1520,
+                336
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 92.86754131317139,
+            "box_points": [
+                390,
+                700,
+                474,
+                759
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.80300664901733,
+            "box_points": [
+                231,
+                540,
+                454,
+                1033
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 98.82445335388184,
+            "box_points": [
+                1388,
+                249,
+                1511,
+                343
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 85.29228568077087,
+            "box_points": [
+                372,
+                695,
+                486,
+                762
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.77851510047913,
+            "box_points": [
+                231,
+                545,
+                454,
+                1031
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 98.87619018554688,
+            "box_points": [
+                1388,
+                250,
+                1511,
+                343
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 86.92306280136108,
+            "box_points": [
+                374,
+                695,
+                488,
+                760
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.76357817649841,
+            "box_points": [
+                247,
+                512,
+                433,
+                1054
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.00188446044922,
+            "box_points": [
+                1388,
+                250,
+                1512,
+                344
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 91.87529683113098,
+            "box_points": [
+                406,
+                686,
+                488,
+                750
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.76736903190613,
+            "box_points": [
+                248,
+                513,
+                434,
+                1055
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.09757971763611,
+            "box_points": [
+                1389,
+                250,
+                1511,
+                344
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 92.70429611206055,
+            "box_points": [
+                410,
+                684,
+                486,
+                752
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.78761076927185,
+            "box_points": [
+                232,
+                547,
+                456,
+                1035
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.20176863670349,
+            "box_points": [
+                1390,
+                250,
+                1512,
+                345
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 95.167475938797,
+            "box_points": [
+                412,
+                680,
+                488,
+                754
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.80437159538269,
+            "box_points": [
+                232,
+                541,
+                458,
+                1037
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.22547340393066,
+            "box_points": [
+                1391,
+                250,
+                1513,
+                346
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 95.33042907714844,
+            "box_points": [
+                414,
+                677,
+                488,
+                757
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.81017112731934,
+            "box_points": [
+                233,
+                541,
+                461,
+                1039
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.24507141113281,
+            "box_points": [
+                1390,
+                250,
+                1514,
+                346
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 96.03479504585266,
+            "box_points": [
+                417,
+                675,
+                489,
+                757
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.8245120048523,
+            "box_points": [
+                233,
+                543,
+                464,
+                1039
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.26822185516357,
+            "box_points": [
+                1391,
+                250,
+                1513,
+                347
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 95.90116739273071,
+            "box_points": [
+                419,
+                674,
+                490,
+                755
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.82993006706238,
+            "box_points": [
+                232,
+                544,
+                464,
+                1041
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.31327104568481,
+            "box_points": [
+                1391,
+                250,
+                1513,
+                348
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 95.74139714241028,
+            "box_points": [
+                423,
+                676,
+                493,
+                752
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.8332679271698,
+            "box_points": [
+                232,
+                543,
+                464,
+                1042
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.32719469070435,
+            "box_points": [
+                1391,
+                250,
+                1514,
+                348
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 95.65602540969849,
+            "box_points": [
+                427,
+                677,
+                497,
+                749
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.83393549919128,
+            "box_points": [
+                232,
+                538,
+                462,
+                1045
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.35779571533203,
+            "box_points": [
+                1391,
+                250,
+                1516,
+                349
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 94.62264776229858,
+            "box_points": [
+                428,
+                676,
+                497,
+                747
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.82733726501465,
+            "box_points": [
+                234,
+                536,
+                465,
+                1046
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.39544200897217,
+            "box_points": [
+                1391,
+                250,
+                1517,
+                349
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 94.67973113059998,
+            "box_points": [
+                428,
+                677,
+                504,
+                743
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.80542063713074,
+            "box_points": [
+                237,
+                540,
+                466,
+                1046
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.42339062690735,
+            "box_points": [
+                1391,
+                250,
+                1517,
+                350
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 92.57562756538391,
+            "box_points": [
+                431,
+                673,
+                509,
+                744
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.82205629348755,
+            "box_points": [
+                237,
+                537,
+                468,
+                1049
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.4297742843628,
+            "box_points": [
+                1391,
+                250,
+                1517,
+                351
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 88.56040239334106,
+            "box_points": [
+                422,
+                668,
+                508,
+                735
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.82965588569641,
+            "box_points": [
+                238,
+                541,
+                469,
+                1050
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.48329329490662,
+            "box_points": [
+                1391,
+                250,
+                1518,
+                352
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 95.2657699584961,
+            "box_points": [
+                453,
+                670,
+                512,
+                719
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.82059001922607,
+            "box_points": [
+                241,
+                536,
+                466,
+                1050
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.52659010887146,
+            "box_points": [
+                1391,
+                250,
+                1518,
+                352
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 93.92332434654236,
+            "box_points": [
+                450,
+                654,
+                519,
+                725
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.808269739151,
+            "box_points": [
+                244,
+                538,
+                470,
+                1048
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.51289892196655,
+            "box_points": [
+                1391,
+                251,
+                1517,
+                354
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 97.43694067001343,
+            "box_points": [
+                455,
+                649,
+                510,
+                704
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.82846975326538,
+            "box_points": [
+                245,
+                537,
+                475,
+                1056
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.56275224685669,
+            "box_points": [
+                1392,
+                252,
+                1516,
+                355
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 87.60878443717957,
+            "box_points": [
+                438,
+                627,
+                509,
+                706
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.82806444168091,
+            "box_points": [
+                246,
+                541,
+                474,
+                1052
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.59471821784973,
+            "box_points": [
+                1392,
+                252,
+                1516,
+                356
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 97.17112183570862,
+            "box_points": [
+                440,
+                625,
+                502,
+                682
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.82766509056091,
+            "box_points": [
+                249,
+                543,
+                476,
+                1053
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.59487318992615,
+            "box_points": [
+                1392,
+                253,
+                1515,
+                357
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 96.17184400558472,
+            "box_points": [
+                419,
+                606,
+                497,
+                670
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.82521533966064,
+            "box_points": [
+                260,
+                533,
+                454,
+                1053
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.60505962371826,
+            "box_points": [
+                1391,
+                253,
+                1514,
+                358
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 93.85222792625427,
+            "box_points": [
+                413,
+                595,
+                488,
+                660
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.8442530632019,
+            "box_points": [
+                264,
+                528,
+                454,
+                1054
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.61051344871521,
+            "box_points": [
+                1392,
+                253,
+                1513,
+                360
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 88.69736194610596,
+            "box_points": [
+                395,
+                578,
+                472,
+                646
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.86580610275269,
+            "box_points": [
+                266,
+                508,
+                452,
+                1059
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.6220052242279,
+            "box_points": [
+                1392,
+                254,
+                1513,
+                361
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 86.98190450668335,
+            "box_points": [
+                386,
+                564,
+                471,
+                626
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.82044696807861,
+            "box_points": [
+                274,
+                485,
+                452,
+                1062
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.62827563285828,
+            "box_points": [
+                1392,
+                255,
+                1514,
+                362
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 92.94913411140442,
+            "box_points": [
+                386,
+                542,
+                468,
+                602
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.80365037918091,
+            "box_points": [
+                273,
+                475,
+                448,
+                1060
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.62198138237,
+            "box_points": [
+                1393,
+                256,
+                1514,
+                364
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 75.56456327438354,
+            "box_points": [
+                386,
+                518,
+                470,
+                568
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.74684119224548,
+            "box_points": [
+                262,
+                493,
+                479,
+                1045
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.62424635887146,
+            "box_points": [
+                1393,
+                256,
+                1514,
+                364
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 83.41144919395447,
+            "box_points": [
+                418,
+                465,
+                500,
+                519
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.71755146980286,
+            "box_points": [
+                260,
+                491,
+                476,
+                1041
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.6479332447052,
+            "box_points": [
+                1392,
+                257,
+                1515,
+                365
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 87.89992928504944,
+            "box_points": [
+                461,
+                409,
+                535,
+                479
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.69414472579956,
+            "box_points": [
+                259,
+                485,
+                475,
+                1042
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.65882897377014,
+            "box_points": [
+                1393,
+                257,
+                1515,
+                366
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 97.68333435058594,
+            "box_points": [
+                498,
+                370,
+                574,
+                439
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.719899892807,
+            "box_points": [
+                260,
+                482,
+                477,
+                1046
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.61479306221008,
+            "box_points": [
+                1393,
+                257,
+                1514,
+                366
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 99.30570125579834,
+            "box_points": [
+                542,
+                334,
+                602,
+                387
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.72220659255981,
+            "box_points": [
+                261,
+                484,
+                477,
+                1048
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.59467649459839,
+            "box_points": [
+                1393,
+                258,
+                1515,
+                367
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 71.0041880607605,
+            "box_points": [
+                585,
+                290,
+                644,
+                322
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 98.30265641212463,
+            "box_points": [
+                580,
+                299,
+                633,
+                342
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.74960088729858,
+            "box_points": [
+                262,
+                484,
+                475,
+                1053
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.59070086479187,
+            "box_points": [
+                1393,
+                259,
+                1515,
+                368
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 98.57318997383118,
+            "box_points": [
+                612,
+                262,
+                679,
+                304
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.75083470344543,
+            "box_points": [
+                261,
+                488,
+                472,
+                1058
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.5848536491394,
+            "box_points": [
+                1393,
+                259,
+                1515,
+                369
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 99.34698939323425,
+            "box_points": [
+                648,
+                234,
+                713,
+                274
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.71944689750671,
+            "box_points": [
+                262,
+                493,
+                470,
+                1062
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.57178235054016,
+            "box_points": [
+                1393,
+                260,
+                1514,
+                369
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 99.45975542068481,
+            "box_points": [
+                682,
+                193,
+                744,
+                246
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.75746273994446,
+            "box_points": [
+                277,
+                469,
+                452,
+                1068
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.56050515174866,
+            "box_points": [
+                1394,
+                260,
+                1514,
+                369
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 99.6040403842926,
+            "box_points": [
+                720,
+                171,
+                781,
+                222
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.77045059204102,
+            "box_points": [
+                279,
+                469,
+                452,
+                1067
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.53281283378601,
+            "box_points": [
+                1394,
+                261,
+                1514,
+                370
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 99.37224984169006,
+            "box_points": [
+                758,
+                147,
+                812,
+                195
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.71359372138977,
+            "box_points": [
+                263,
+                495,
+                470,
+                1059
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 53.61133813858032,
+            "box_points": [
+                767,
+                121,
+                888,
+                167
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 67.28333234786987,
+            "box_points": [
+                761,
+                121,
+                894,
+                166
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.53088760375977,
+            "box_points": [
+                1395,
+                261,
+                1513,
+                372
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 98.9767849445343,
+            "box_points": [
+                791,
+                127,
+                846,
+                170
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.74074959754944,
+            "box_points": [
+                261,
+                492,
+                471,
+                1057
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.4946300983429,
+            "box_points": [
+                1395,
+                262,
+                1513,
+                372
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 99.05979037284851,
+            "box_points": [
+                826,
+                107,
+                879,
+                153
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.7163474559784,
+            "box_points": [
+                262,
+                491,
+                474,
+                1054
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 73.99208545684814,
+            "box_points": [
+                836,
+                83,
+                965,
+                130
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.48812127113342,
+            "box_points": [
+                1395,
+                262,
+                1514,
+                372
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 98.4595775604248,
+            "box_points": [
+                860,
+                88,
+                919,
+                140
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.72749352455139,
+            "box_points": [
+                263,
+                491,
+                474,
+                1056
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.50278997421265,
+            "box_points": [
+                1395,
+                262,
+                1515,
+                373
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 96.5486228466034,
+            "box_points": [
+                890,
+                73,
+                961,
+                123
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.73020553588867,
+            "box_points": [
+                263,
+                491,
+                472,
+                1060
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.4827926158905,
+            "box_points": [
+                1396,
+                263,
+                1516,
+                373
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 98.51037859916687,
+            "box_points": [
+                921,
+                62,
+                986,
+                116
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.7209906578064,
+            "box_points": [
+                262,
+                495,
+                469,
+                1061
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 69.1760003566742,
+            "box_points": [
+                940,
+                41,
+                1044,
+                92
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.48832988739014,
+            "box_points": [
+                1395,
+                263,
+                1516,
+                374
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 96.33705019950867,
+            "box_points": [
+                954,
+                59,
+                1016,
+                112
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.74580407142639,
+            "box_points": [
+                263,
+                496,
+                470,
+                1064
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 61.93948984146118,
+            "box_points": [
+                956,
+                33,
+                1063,
+                89
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.47698712348938,
+            "box_points": [
+                1395,
+                264,
+                1516,
+                374
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 97.97413349151611,
+            "box_points": [
+                990,
+                52,
+                1050,
+                101
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.7509241104126,
+            "box_points": [
+                263,
+                503,
+                473,
+                1060
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 70.53846716880798,
+            "box_points": [
+                1006,
+                34,
+                1108,
+                87
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.46894645690918,
+            "box_points": [
+                1395,
+                265,
+                1515,
+                374
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 97.72292375564575,
+            "box_points": [
+                1023,
+                47,
+                1081,
+                100
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.77632164955139,
+            "box_points": [
+                277,
+                476,
+                453,
+                1072
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.44682121276855,
+            "box_points": [
+                1395,
+                265,
+                1515,
+                375
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 98.18146228790283,
+            "box_points": [
+                1047,
+                48,
+                1112,
+                97
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.78590607643127,
+            "box_points": [
+                277,
+                478,
+                453,
+                1072
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.4013786315918,
+            "box_points": [
+                1395,
+                265,
+                1515,
+                375
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 98.22006225585938,
+            "box_points": [
+                1079,
+                50,
+                1141,
+                98
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.84122514724731,
+            "box_points": [
+                275,
+                479,
+                452,
+                1074
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.36166405677795,
+            "box_points": [
+                1395,
+                265,
+                1515,
+                376
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 98.84009957313538,
+            "box_points": [
+                1112,
+                57,
+                1165,
+                113
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.84158277511597,
+            "box_points": [
+                275,
+                477,
+                451,
+                1073
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.32663440704346,
+            "box_points": [
+                1395,
+                266,
+                1515,
+                375
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 98.72511625289917,
+            "box_points": [
+                1142,
+                66,
+                1197,
+                113
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.82566833496094,
+            "box_points": [
+                275,
+                475,
+                450,
+                1073
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.30214285850525,
+            "box_points": [
+                1395,
+                266,
+                1514,
+                376
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 98.43953847885132,
+            "box_points": [
+                1173,
+                70,
+                1229,
+                119
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.80589747428894,
+            "box_points": [
+                274,
+                474,
+                449,
+                1071
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.27761554718018,
+            "box_points": [
+                1395,
+                267,
+                1514,
+                376
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 99.27161931991577,
+            "box_points": [
+                1196,
+                85,
+                1258,
+                133
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.82978105545044,
+            "box_points": [
+                272,
+                473,
+                446,
+                1071
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.27436709403992,
+            "box_points": [
+                1394,
+                268,
+                1514,
+                375
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 98.69168996810913,
+            "box_points": [
+                1227,
+                104,
+                1289,
+                150
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.81839656829834,
+            "box_points": [
+                272,
+                473,
+                446,
+                1071
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.25959706306458,
+            "box_points": [
+                1394,
+                268,
+                1515,
+                376
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 98.26809763908386,
+            "box_points": [
+                1263,
+                124,
+                1309,
+                176
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.82529282569885,
+            "box_points": [
+                271,
+                473,
+                445,
+                1073
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.23815131187439,
+            "box_points": [
+                1392,
+                269,
+                1514,
+                375
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 99.17042851448059,
+            "box_points": [
+                1286,
+                145,
+                1343,
+                192
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.819415807724,
+            "box_points": [
+                271,
+                473,
+                446,
+                1074
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 98.99473190307617,
+            "box_points": [
+                1392,
+                269,
+                1515,
+                376
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 99.32292699813843,
+            "box_points": [
+                1314,
+                166,
+                1374,
+                213
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.84156489372253,
+            "box_points": [
+                271,
+                475,
+                447,
+                1075
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.05790090560913,
+            "box_points": [
+                1392,
+                268,
+                1513,
+                376
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 98.32850694656372,
+            "box_points": [
+                1340,
+                191,
+                1402,
+                237
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.85184073448181,
+            "box_points": [
+                270,
+                479,
+                447,
+                1074
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.12428855895996,
+            "box_points": [
+                1391,
+                271,
+                1516,
+                375
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 97.06842303276062,
+            "box_points": [
+                1371,
+                216,
+                1422,
+                264
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.88133311271667,
+            "box_points": [
+                269,
+                481,
+                446,
+                1077
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 98.6421525478363,
+            "box_points": [
+                1393,
+                272,
+                1520,
+                376
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 98.66844415664673,
+            "box_points": [
+                1390,
+                232,
+                1450,
+                277
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.87398982048035,
+            "box_points": [
+                269,
+                481,
+                446,
+                1077
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 98.44209551811218,
+            "box_points": [
+                1390,
+                273,
+                1517,
+                373
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 97.0408022403717,
+            "box_points": [
+                1404,
+                221,
+                1460,
+                268
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.88534450531006,
+            "box_points": [
+                268,
+                482,
+                446,
+                1079
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 98.56064915657043,
+            "box_points": [
+                1390,
+                274,
+                1518,
+                374
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 97.73830771446228,
+            "box_points": [
+                1419,
+                217,
+                1477,
+                265
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.88217949867249,
+            "box_points": [
+                267,
+                482,
+                446,
+                1080
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 98.60726594924927,
+            "box_points": [
+                1390,
+                275,
+                1519,
+                375
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 94.43234205245972,
+            "box_points": [
+                1440,
+                211,
+                1488,
+                265
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.8797595500946,
+            "box_points": [
+                266,
+                483,
+                446,
+                1081
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 98.55079650878906,
+            "box_points": [
+                1389,
+                274,
+                1519,
+                376
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 96.27290368080139,
+            "box_points": [
+                1453,
+                216,
+                1509,
+                262
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.87011551856995,
+            "box_points": [
+                266,
+                483,
+                446,
+                1081
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 98.75370264053345,
+            "box_points": [
+                1390,
+                272,
+                1518,
+                376
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 97.90895581245422,
+            "box_points": [
+                1470,
+                217,
+                1518,
+                262
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.86220002174377,
+            "box_points": [
+                265,
+                483,
+                446,
+                1081
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 98.64805340766907,
+            "box_points": [
+                1391,
+                270,
+                1516,
+                377
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 96.89136743545532,
+            "box_points": [
+                1484,
+                216,
+                1531,
+                268
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.87207055091858,
+            "box_points": [
+                265,
+                484,
+                445,
+                1080
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 98.70604872703552,
+            "box_points": [
+                1391,
+                271,
+                1517,
+                376
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 95.57719230651855,
+            "box_points": [
+                1480,
+                216,
+                1530,
+                268
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.87865686416626,
+            "box_points": [
+                265,
+                485,
+                445,
+                1080
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 98.72700572013855,
+            "box_points": [
+                1391,
+                273,
+                1518,
+                376
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 96.2010145187378,
+            "box_points": [
+                1469,
+                217,
+                1520,
+                267
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.88008737564087,
+            "box_points": [
+                266,
+                485,
+                446,
+                1080
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 98.61953258514404,
+            "box_points": [
+                1391,
+                272,
+                1519,
+                375
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 95.58506608009338,
+            "box_points": [
+                1460,
+                218,
+                1513,
+                268
+            ]
+        },
+        {
+            "name": "people",
+            "percentage_probability": 51.299095153808594,
+            "box_points": [
+                1451,
+                219,
+                1519,
+                290
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.88703727722168,
+            "box_points": [
+                267,
+                487,
+                446,
+                1079
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 98.61692786216736,
+            "box_points": [
+                1393,
+                270,
+                1518,
+                376
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 90.3757095336914,
+            "box_points": [
+                1443,
+                231,
+                1496,
+                278
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.876868724823,
+            "box_points": [
+                268,
+                487,
+                447,
+                1078
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 98.19735288619995,
+            "box_points": [
+                1393,
+                267,
+                1516,
+                375
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 93.26361417770386,
+            "box_points": [
+                1432,
+                235,
+                1491,
+                282
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.86177086830139,
+            "box_points": [
+                269,
+                487,
+                448,
+                1075
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 97.94929623603821,
+            "box_points": [
+                1393,
+                266,
+                1516,
+                376
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 93.89483332633972,
+            "box_points": [
+                1416,
+                251,
+                1481,
+                297
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.85923171043396,
+            "box_points": [
+                271,
+                489,
+                449,
+                1071
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 98.88714551925659,
+            "box_points": [
+                1395,
+                263,
+                1516,
+                375
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 91.1473035812378,
+            "box_points": [
+                1398,
+                261,
+                1467,
+                295
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.82298016548157,
+            "box_points": [
+                274,
+                488,
+                452,
+                1068
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.02662634849548,
+            "box_points": [
+                1393,
+                263,
+                1514,
+                372
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.82338547706604,
+            "box_points": [
+                276,
+                492,
+                455,
+                1064
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.24352765083313,
+            "box_points": [
+                1388,
+                268,
+                1511,
+                372
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 58.786553144454956,
+            "box_points": [
+                1394,
+                304,
+                1440,
+                335
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.85204339027405,
+            "box_points": [
+                273,
+                498,
+                456,
+                1064
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.00093078613281,
+            "box_points": [
+                1385,
+                269,
+                1508,
+                369
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 84.71441864967346,
+            "box_points": [
+                1392,
+                304,
+                1444,
+                340
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.89558458328247,
+            "box_points": [
+                271,
+                512,
+                456,
+                1064
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 98.96998405456543,
+            "box_points": [
+                1383,
+                269,
+                1507,
+                368
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 65.0723934173584,
+            "box_points": [
+                1396,
+                303,
+                1441,
+                344
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.87637400627136,
+            "box_points": [
+                275,
+                517,
+                461,
+                1065
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 98.58333468437195,
+            "box_points": [
+                1384,
+                268,
+                1510,
+                369
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 86.3171637058258,
+            "box_points": [
+                1390,
+                318,
+                1444,
+                359
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 73.76537919044495,
+            "box_points": [
+                1376,
+                303,
+                1465,
+                374
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.89285469055176,
+            "box_points": [
+                276,
+                529,
+                461,
+                1060
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 97.96083569526672,
+            "box_points": [
+                1388,
+                267,
+                1513,
+                367
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 95.75714468955994,
+            "box_points": [
+                1394,
+                322,
+                1449,
+                371
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.88464117050171,
+            "box_points": [
+                278,
+                546,
+                464,
+                1056
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 97.68622517585754,
+            "box_points": [
+                1392,
+                264,
+                1517,
+                368
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 98.66696000099182,
+            "box_points": [
+                1393,
+                335,
+                1454,
+                381
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.83848333358765,
+            "box_points": [
+                280,
+                554,
+                467,
+                1054
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 96.60711884498596,
+            "box_points": [
+                1395,
+                261,
+                1517,
+                367
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 98.0720579624176,
+            "box_points": [
+                1396,
+                342,
+                1454,
+                393
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.7016191482544,
+            "box_points": [
+                270,
+                560,
+                500,
+                1064
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 96.99174761772156,
+            "box_points": [
+                1397,
+                259,
+                1516,
+                359
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 98.25950860977173,
+            "box_points": [
+                1398,
+                359,
+                1457,
+                408
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.66260194778442,
+            "box_points": [
+                282,
+                559,
+                513,
+                1072
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 97.6455569267273,
+            "box_points": [
+                1396,
+                258,
+                1515,
+                349
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 98.4051525592804,
+            "box_points": [
+                1400,
+                380,
+                1458,
+                425
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.74620938301086,
+            "box_points": [
+                303,
+                580,
+                489,
+                1051
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 98.805171251297,
+            "box_points": [
+                1394,
+                261,
+                1516,
+                347
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 99.18256402015686,
+            "box_points": [
+                1404,
+                399,
+                1460,
+                444
+            ]
+        }
+    ],
+    [
+        {
+            "name": "people",
+            "percentage_probability": 99.83129501342773,
+            "box_points": [
+                319,
+                584,
+                497,
+                1051
+            ]
+        },
+        {
+            "name": "rim",
+            "percentage_probability": 99.42805171012878,
+            "box_points": [
+                1391,
+                262,
+                1517,
+                355
+            ]
+        },
+        {
+            "name": "ball",
+            "percentage_probability": 99.47361946105957,
+            "box_points": [
+                1404,
+                416,
+                1464,
+                467
+            ]
+        }
+    ]
+]

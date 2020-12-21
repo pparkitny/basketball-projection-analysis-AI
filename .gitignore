@@ -135,5 +135,10 @@ dmypy.json
 *.mp4
 *.avi
 
-
-
+static/interface/img/
+models/
+include/
+*-frames-openpose.json/
+examples/
+bin/
+3rdparty/

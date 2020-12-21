@@ -53,7 +53,7 @@ function ekUpload(){
   
       console.log(file.name);
       output(
-        '<strong>' + encodeURI(file.name) + '</strong>'
+        '<div style="display: flex;flex-direction: column;justify-content: center;"> <strong style="margin-bottom: 20px;">' + encodeURI(file.name) + '</strong>' +  '<div id="loader"> <div class="preloader-wrapper active"> <div class="spinner-layer spinner-yellow-only"> <div class="circle-clipper left"> <div class="circle"></div> </div><div class="gap-patch"> <div class="circle"></div> </div><div class="circle-clipper right"> <div class="circle"></div> </div> </div> </div> </div> </div>'
       );
       
       // var fileType = file.type;
@@ -102,8 +102,8 @@ function ekUpload(){
         if (file.size <= fileSizeLimit * 1024 * 1024) {
           // Progress bar
           pBar.style.display = 'inline';
-          xhr.upload.addEventListener('loadstart', setProgressMaxValue, false);
-          xhr.upload.addEventListener('progress', updateFileProgress, false);
+          // xhr.upload.addEventListener('loadstart', setProgressMaxValue, false);
+          // xhr.upload.addEventListener('progress', updateFileProgress, false);
   
           // File received / failed
           xhr.onreadystatechange = function(e) {
@@ -172,7 +172,12 @@ function ekUpload(){
           console.log(JSON.stringify(response.result))
           $("#file-progress").val($("#file-progress").val() + 1)
 
-          AnalysisDone(response.result)
+          if (Object.keys(response.result).includes("Film się nie nadaje")) {
+            alert("Film nie spełnia podanych kryteriów")
+          }
+          else {
+            AnalysisDone(response.result)
+          }
         }
         else if(response.state == "FAILURE"){
           alert(response.step)

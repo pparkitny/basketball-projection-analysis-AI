@@ -15,11 +15,11 @@
     </div>
 
     <div class="logo-description-div">
-      "Basketball projection analysis" to aplikacja, <br/> która używa sztucznej inteligencji do analizowania rzutu piłki do kosza.
+      Basketball projection analysis is an application <br/> that uses AI to analyze ball projections into the basket.
     </div>
 
     <div class="logo-text-div">
-      Kliknij w przycisk i zobacz!
+      Click the button and check it out!
     </div>
 
     <div class="logo-icon">
@@ -53,20 +53,20 @@
   <div class="nav-menu">
 
       <div href="#" id="link1" class="nav-menu-item">
-        O PROJEKCIE
+        About
       </div>
 
       <div href="#" id="link2" class="nav-menu-item">
-        INSTRUKCJA
+        How to
       </div>
       <div href="#" id="link3" class="nav-menu-item">
-        PRZEŚLIJ PLIK
+        Upload
       </div>
       <div href="#" id="link4" class="nav-menu-item"  style ="display: none;">
-        ANALIZA
+        Analysis
       </div>
       <div href="#" id="link5" class="nav-menu-item">
-        AUTORZY
+        Authors
       </div>
   </div>
 
@@ -76,7 +76,7 @@
 
     <div id="about" class="section-div-1">
 
-      <div class="section-text">O PROJEKCIE</div>
+      <div class="section-text">ABOUT</div>
 
         <div class="about-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero vel nisl venenatis rutrum non ac arcu. Ut porttitor tortor tellus, sit amet mattis urna ultricies eu. Mauris tincidunt interdum ornare. Etiam sed imperdiet tortor. Aliquam gravida posuere augue, sed lobortis felis condimentum sit amet. Etiam eget pellentesque nunc, in placerat dui. Nam quam arcu, efficitur in massa non, pharetra aliquet justo. Praesent ac fermentum ligula. Vestibulum nec ex purus. Ut varius arcu non nunc euismod imperdiet.
@@ -88,7 +88,7 @@
 
     <div id="howto" class="section-div-2">
 
-      <div class="section-text">INSTRUKCJA</div>
+      <div class="section-text">HOW TO</div>
 
         <div class="howto-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero vel nisl venenatis rutrum non ac arcu. Ut porttitor tortor tellus, sit amet mattis urna ultricies eu. Mauris tincidunt interdum ornare. Etiam sed imperdiet tortor. Aliquam gravida posuere augue, sed lobortis felis condimentum sit amet. Etiam eget pellentesque nunc, in placerat dui. Nam quam arcu, efficitur in massa non, pharetra aliquet justo. Praesent ac fermentum ligula. Vestibulum nec ex purus. Ut varius arcu non nunc euismod imperdiet.
@@ -100,7 +100,7 @@
 
     <div id="upload" class="section-div-1">
 
-      <div class="section-text">PRZEŚLIJ PLIK</div>
+      <div class="section-text">UPLOAD</div>
 
       <div class="upload-div">
 
@@ -113,8 +113,8 @@
             <div id="start">
               <div class="upload-text">
                 <i class="fa fa-download" aria-hidden="true"></i>
-                <div>Wybierz plik lub przeciągnij go tutaj</div>
-                <div id="notimage" class="hidden">Wybierz wideo</div>
+                <div>Select a file or drag here</div>
+                <div id="notimage" class="hidden">Please select a video</div>
               </div>
             </div>
             <div id="response" class="hidden">
@@ -133,7 +133,7 @@
 
     <div id="analysis" class="section-div-analysis" style ="display: none;">
 
-      <div class="section-text-analysis">ANALIZA</div>
+      <div class="section-text-analysis">ANALYSIS</div>
       <div id="section-text-analysis-content"></div>
       <!-- <div id="section-text-analysis-content">
         
@@ -143,7 +143,7 @@
 
     <div id="authors" class="section-div-2">
 
-      <div class="section-text">AUTORZY</div>
+      <div class="section-text">AUTHORS</div>
 
     <div class="authors-container">
       <div class="authors">
@@ -192,9 +192,8 @@
 
   <script>
     function AnalysisDone(result){
-
       // var text = "<div class=\"video-div\"> <video id=\"my-video\" class=\"video-js\" controls preload=\"auto\" width=\"640\" height=\"264\" data-setup=\"{}\" > <source src=\"{% static 'interface/video/video-frames.mp4' %}\" type=\"video/mp4\" /> <p class=\"vjs-no-js\"> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\"https://videojs.com/html5-video-support/\" target=\"_blank\" >supports HTML5 video</a > </p> </video> </div> <div class=\"video-div\"> <video id=\"my-video\" class=\"video-js\" controls preload=\"auto\" width=\"640\" height=\"264\" data-setup=\"{}\" > <source src=\"{% static 'interface/video/video-yolo.mp4' %}\" type=\"video/mp4\" /> <p class=\"vjs-no-js\"> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\"https://videojs.com/html5-video-support/\" target=\"_blank\" >supports HTML5 video</a > </p> </video> </div> <div class=\"video-div\"> <video id=\"my-video\" class=\"video-js\" controls preload=\"auto\" width=\"640\" height=\"264\" data-setup=\"{}\" > <source src=\"{% static 'interface/video/video-openpose-converted.mp4' %}\" type=\"video/mp4\" /> <p class=\"vjs-no-js\"> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\"https://videojs.com/html5-video-support/\" target=\"_blank\" >supports HTML5 video</a > </p> </video> </div>"
-      var text2 = "<div id=\'video-content\'> <div id=\'row2\'> <div class=\'video-div\' id=\'column\'> <p>Wideo wejściowe</p> <video id=\'my-video\' class=\'video-js\' controls preload=\'auto\' width=\'640\' height=\'264\' data-setup=\'{}\' > <source src=\'{% static 'interface/video/video-frames.mp4' %}\' type=\'video/mp4\' /> <p class=\'vjs-no-js\'> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\'https://videojs.com/html5-video-support/\' target=\'_blank\' >supports HTML5 video</a > </p> </video> </div> <div class=\'video-div\' id=\'column\'> <p>YOLO</p> <video id=\'my-video\' class=\'video-js\' controls preload=\'auto\' width=\'640\' height=\'264\' data-setup=\'{}\' > <source src=\'{% static 'interface/video/video-yolo.mp4' %}\' type=\'video/mp4\' /> <p class=\'vjs-no-js\'> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\'https://videojs.com/html5-video-support/\' target=\'_blank\' >supports HTML5 video</a > </p> </video> </div> </div> <div id=\'row2\'> <div class=\'video-div\' id=\'column\'> <p>Trajektoria rzutu piłki</p> <video id=\'my-video\' class=\'video-js\' controls preload=\'auto\' width=\'640\' height=\'264\' data-setup=\'{}\' > <source src=\'{% static 'interface/video/trajektoria.mp4' %}\' type=\'video/mp4\' /> <p class=\'vjs-no-js\'> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\'https://videojs.com/html5-video-support/\' target=\'_blank\' >supports HTML5 video</a > </p> </video> </div> <div class=\'video-div\' id=\'column\'> <p>Openpose</p> <video id=\'my-video\' class=\'video-js\' controls preload=\'auto\' width=\'640\' height=\'264\' data-setup=\'{}\' > <source src=\'{% static 'interface/video/video-openpose-converted.mp4' %}\' type=\'video/mp4\' /> <p class=\'vjs-no-js\'> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\'https://videojs.com/html5-video-support/\' target=\'_blank\' >supports HTML5 video</a > </p> </video> </div> </div> </div> <div id=\'image-content\'> <div id=\'row2\'> <div id=\'column2\'> <p>Pozycja 1</p> <img id=\'imgsize\' src=\'{% static 'interface/img/analysis/pozycja_1.jpg' %}\'> </div> <div id=\'column2\'> <p>Pozycja 2</p> <img id=\'imgsize\' src=\'{% static 'interface/img/analysis/pozycja_4.jpg' %}\'> </div> <div id=\'column2\'> <p>Pozycja 3</p> <img id=\'imgsize\' src=\'{% static 'interface/img/analysis/pozycja_2.jpg' %}\'> </div> <div id=\'column2\'> <p>Pozycja 4</p> <img id=\'imgsize\' src=\'{% static 'interface/img/analysis/pozycja_3.jpg' %}\'> </div> </div> </div> <pre id=\'json-content\' style=\'color: white; font-family:Roboto; font-size: 1.5em\'>  </pre>"
+      var text2 = "<div id=\'video-content\'> <div id=\'row2\'> <div class=\'video-div\' id=\'column\'> <p>Input Video</p> <video id=\'my-video\' class=\'video-js\' controls preload=\'auto\' width=\'640\' height=\'264\' data-setup=\'{}\' > <source src=\'{% static 'interface/video/video-frames.mp4' %}\' type=\'video/mp4\' /> <p class=\'vjs-no-js\'> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\'https://videojs.com/html5-video-support/\' target=\'_blank\' >supports HTML5 video</a > </p> </video> </div> <div class=\'video-div\' id=\'column\'> <p>YOLO</p> <video id=\'my-video\' class=\'video-js\' controls preload=\'auto\' width=\'640\' height=\'264\' data-setup=\'{}\' > <source src=\'{% static 'interface/video/video-yolo.mp4' %}\' type=\'video/mp4\' /> <p class=\'vjs-no-js\'> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\'https://videojs.com/html5-video-support/\' target=\'_blank\' >supports HTML5 video</a > </p> </video> </div> </div> <div id=\'row2\'> <div class=\'video-div\' id=\'column\'> <p>Trajectory of throw</p> <video id=\'my-video\' class=\'video-js\' controls preload=\'auto\' width=\'640\' height=\'264\' data-setup=\'{}\' > <source src=\'{% static 'interface/video/trajektoria.mp4' %}\' type=\'video/mp4\' /> <p class=\'vjs-no-js\'> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\'https://videojs.com/html5-video-support/\' target=\'_blank\' >supports HTML5 video</a > </p> </video> </div> <div class=\'video-div\' id=\'column\'> <p>Openpose</p> <video id=\'my-video\' class=\'video-js\' controls preload=\'auto\' width=\'640\' height=\'264\' data-setup=\'{}\' > <source src=\'{% static 'interface/video/video-openpose-converted.mp4' %}\' type=\'video/mp4\' /> <p class=\'vjs-no-js\'> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\'https://videojs.com/html5-video-support/\' target=\'_blank\' >supports HTML5 video</a > </p> </video> </div> </div> </div> <div id=\'image-content\'> <div id=\'row2\'> <div id=\'column2\'> <p>Position 1</p> <img id=\'imgsize\' src=\'{% static 'interface/img/analysis/pozycja_1.jpg' %}\'> </div> <div id=\'column2\'> <p>Position 2</p> <img id=\'imgsize\' src=\'{% static 'interface/img/analysis/pozycja_4.jpg' %}\'> </div> <div id=\'column2\'> <p>Position 3</p> <img id=\'imgsize\' src=\'{% static 'interface/img/analysis/pozycja_2.jpg' %}\'> </div> <div id=\'column2\'> <p>Position 4</p> <img id=\'imgsize\' src=\'{% static 'interface/img/analysis/pozycja_3.jpg' %}\'> </div> </div> </div> <pre id=\'json-content\' style=\'color: white\'>  </pre>"
       var content = $("#section-text-analysis-content")
       var parent = $("#analysis")
       var sidebar = $("#link4")

@@ -565,7 +565,7 @@ def analysis(path=None):
     else:
         print("Film się nie nadaje")
         to_json.update(
-            {"Film się nie nadaje": "Oj nie byczq"})
+            {"Film się nie nadaje": "NIE"})
 
     with open(jsonPath, 'w+') as f:
         f.write(json.dumps(to_json))
