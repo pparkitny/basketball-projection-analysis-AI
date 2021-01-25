@@ -173,7 +173,7 @@ function ekUpload(){
           $("#file-progress").val($("#file-progress").val() + 1)
 
           if (Object.keys(response.result).includes("Film się nie nadaje")) {
-            alert("Film nie spełnia podanych kryteriów")
+            AnalysisNotDone(response.result)
           }
           else {
             AnalysisDone(response.result)

@@ -79,9 +79,19 @@
       <div class="section-text">O PROJEKCIE</div>
 
         <div class="about-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero vel nisl venenatis rutrum non ac arcu. Ut porttitor tortor tellus, sit amet mattis urna ultricies eu. Mauris tincidunt interdum ornare. Etiam sed imperdiet tortor. Aliquam gravida posuere augue, sed lobortis felis condimentum sit amet. Etiam eget pellentesque nunc, in placerat dui. Nam quam arcu, efficitur in massa non, pharetra aliquet justo. Praesent ac fermentum ligula. Vestibulum nec ex purus. Ut varius arcu non nunc euismod imperdiet.
-          <br/> <br/>
-          Praesent suscipit efficitur dui id sagittis. Fusce egestas dui sit amet dictum sodales. Nunc egestas ante ac enim sodales, vitae aliquet urna molestie. Curabitur laoreet nunc ornare maximus condimentum. Duis sagittis sapien non purus dignissim, et iaculis diam auctor. Integer vel fermentum libero. Vivamus vestibulum nibh mauris, a consequat mi viverra aliquam. Vivamus et risus scelerisque, pharetra nulla vel, mattis risus. Phasellus vel consequat mauris, interdum placerat quam. Curabitur in turpis nibh. Quisque vulputate urna in elit consequat varius. Nulla rhoncus condimentum efficitur.
+          Projekt powstał podczas pisania pracy inżynierskiej. 
+        </br>
+          Głównym założeniem projektu jest umożliwienie sportowcom dokładnej analizy ruchu ich ciała podczas rzutu osobistego. 
+        </br>
+          Projekt został napisany w języku Python.
+        </br>
+          Backend strony został napisany przy pomocy framework-a Django, 
+          namomiast frontend w języku HTML, CSS i Javascript (wraz z biblioteką JQuery).
+        </br>
+          Wykorzystaliśmy bibliotekę OpenPose oraz model YOLO.
+        </br>
+          W planach jest rozwinięcie projektu o inne dyscypliny sportowe.
+
         </div>
   
     </div>
@@ -91,10 +101,18 @@
       <div class="section-text">INSTRUKCJA</div>
 
         <div class="howto-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero vel nisl venenatis rutrum non ac arcu. Ut porttitor tortor tellus, sit amet mattis urna ultricies eu. Mauris tincidunt interdum ornare. Etiam sed imperdiet tortor. Aliquam gravida posuere augue, sed lobortis felis condimentum sit amet. Etiam eget pellentesque nunc, in placerat dui. Nam quam arcu, efficitur in massa non, pharetra aliquet justo. Praesent ac fermentum ligula. Vestibulum nec ex purus. Ut varius arcu non nunc euismod imperdiet.
-          <br/> <br/>
-          Praesent suscipit efficitur dui id sagittis. Fusce egestas dui sit amet dictum sodales. Nunc egestas ante ac enim sodales, vitae aliquet urna molestie. Curabitur laoreet nunc ornare maximus condimentum. Duis sagittis sapien non purus dignissim, et iaculis diam auctor. Integer vel fermentum libero. Vivamus vestibulum nibh mauris, a consequat mi viverra aliquam. Vivamus et risus scelerisque, pharetra nulla vel, mattis risus. Phasellus vel consequat mauris, interdum placerat quam. Curabitur in turpis nibh. Quisque vulputate urna in elit consequat varius. Nulla rhoncus condimentum efficitur.
-        </div>
+          W sekcji "Prześlij plik" należy dodać plik ".mp4", który chcemy przeanalizować. 
+        </br>
+        Im dłuższy film, tym dłużej będzie trwała analiza. 
+        </br>
+        Po poprawnym przesłaniu pliku pojawi się pasek postępu i zacznie wykonywać się analiza.
+        </br>
+        Gdy wykona się cała analiza, a pasek postępu całkowicie się wypełni, 
+        pojawi się sekcja "Analiza" w której znajdują się cztery filmy, cztery zdjęcia oraz tekstowa analiza rzutu.
+        </br>
+        W celu przeanalizowania innego pliku należy zresetować plik "celery.bat" oraz odświeżyć tą stronę.
+
+         </div>
 
       </div>
 
@@ -109,7 +127,6 @@
           <input id="file-upload" type="file" name="fileUpload" accept="video/mp4" />
     
           <label for="file-upload" id="file-drag">
-            <!-- <img id="file-image" src="#" alt="Preview" class="hidden"> -->
             <div id="start">
               <div class="upload-text">
                 <i class="fa fa-download" aria-hidden="true"></i>
@@ -135,9 +152,6 @@
 
       <div class="section-text-analysis">ANALIZA</div>
       <div id="section-text-analysis-content"></div>
-      <!-- <div id="section-text-analysis-content">
-        
-      </div> -->
 
     </div>
 
@@ -192,9 +206,24 @@
 
   <script>
     function AnalysisDone(result){
-
-      // var text = "<div class=\"video-div\"> <video id=\"my-video\" class=\"video-js\" controls preload=\"auto\" width=\"640\" height=\"264\" data-setup=\"{}\" > <source src=\"{% static 'interface/video/video-frames.mp4' %}\" type=\"video/mp4\" /> <p class=\"vjs-no-js\"> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\"https://videojs.com/html5-video-support/\" target=\"_blank\" >supports HTML5 video</a > </p> </video> </div> <div class=\"video-div\"> <video id=\"my-video\" class=\"video-js\" controls preload=\"auto\" width=\"640\" height=\"264\" data-setup=\"{}\" > <source src=\"{% static 'interface/video/video-yolo.mp4' %}\" type=\"video/mp4\" /> <p class=\"vjs-no-js\"> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\"https://videojs.com/html5-video-support/\" target=\"_blank\" >supports HTML5 video</a > </p> </video> </div> <div class=\"video-div\"> <video id=\"my-video\" class=\"video-js\" controls preload=\"auto\" width=\"640\" height=\"264\" data-setup=\"{}\" > <source src=\"{% static 'interface/video/video-openpose-converted.mp4' %}\" type=\"video/mp4\" /> <p class=\"vjs-no-js\"> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\"https://videojs.com/html5-video-support/\" target=\"_blank\" >supports HTML5 video</a > </p> </video> </div>"
       var text2 = "<div id=\'video-content\'> <div id=\'row2\'> <div class=\'video-div\' id=\'column\'> <p>Wideo wejściowe</p> <video id=\'my-video\' class=\'video-js\' controls preload=\'auto\' width=\'640\' height=\'264\' data-setup=\'{}\' > <source src=\'{% static 'interface/video/video-frames.mp4' %}\' type=\'video/mp4\' /> <p class=\'vjs-no-js\'> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\'https://videojs.com/html5-video-support/\' target=\'_blank\' >supports HTML5 video</a > </p> </video> </div> <div class=\'video-div\' id=\'column\'> <p>YOLO</p> <video id=\'my-video\' class=\'video-js\' controls preload=\'auto\' width=\'640\' height=\'264\' data-setup=\'{}\' > <source src=\'{% static 'interface/video/video-yolo.mp4' %}\' type=\'video/mp4\' /> <p class=\'vjs-no-js\'> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\'https://videojs.com/html5-video-support/\' target=\'_blank\' >supports HTML5 video</a > </p> </video> </div> </div> <div id=\'row2\'> <div class=\'video-div\' id=\'column\'> <p>Trajektoria rzutu piłki</p> <video id=\'my-video\' class=\'video-js\' controls preload=\'auto\' width=\'640\' height=\'264\' data-setup=\'{}\' > <source src=\'{% static 'interface/video/trajektoria.mp4' %}\' type=\'video/mp4\' /> <p class=\'vjs-no-js\'> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\'https://videojs.com/html5-video-support/\' target=\'_blank\' >supports HTML5 video</a > </p> </video> </div> <div class=\'video-div\' id=\'column\'> <p>Openpose</p> <video id=\'my-video\' class=\'video-js\' controls preload=\'auto\' width=\'640\' height=\'264\' data-setup=\'{}\' > <source src=\'{% static 'interface/video/video-openpose-converted.mp4' %}\' type=\'video/mp4\' /> <p class=\'vjs-no-js\'> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\'https://videojs.com/html5-video-support/\' target=\'_blank\' >supports HTML5 video</a > </p> </video> </div> </div> </div> <div id=\'image-content\'> <div id=\'row2\'> <div id=\'column2\'> <p>Pozycja 1</p> <img id=\'imgsize\' src=\'{% static 'interface/img/analysis/pozycja_1.jpg' %}\'> </div> <div id=\'column2\'> <p>Pozycja 2</p> <img id=\'imgsize\' src=\'{% static 'interface/img/analysis/pozycja_4.jpg' %}\'> </div> <div id=\'column2\'> <p>Pozycja 3</p> <img id=\'imgsize\' src=\'{% static 'interface/img/analysis/pozycja_2.jpg' %}\'> </div> <div id=\'column2\'> <p>Pozycja 4</p> <img id=\'imgsize\' src=\'{% static 'interface/img/analysis/pozycja_3.jpg' %}\'> </div> </div> </div> <pre id=\'json-content\' style=\'color: white; font-family:Roboto; font-size: 1.5em\'>  </pre>"
+      var content = $("#section-text-analysis-content")
+      var parent = $("#analysis")
+      var sidebar = $("#link4")
+      var authors = $("#authors")
+      $("#file-upload").attr("disabled", true)
+      $("#loader").css("display", "none")
+      parent.css("display", "")
+      sidebar.css("display", "unset")
+      authors.addClass("section-div-1")
+      authors.removeClass("section-div-2")
+      content.html(text2)
+      $("#json-content").html(JSON.stringify(result, undefined, 4).replaceAll("{","").replaceAll("}","").replaceAll("\"","").replaceAll(",",""))
+      $.scrollTo($('#analysis').offset().top, 2000);
+      }
+
+      function AnalysisNotDone(result){
+      var text2 = "<pre id=\'json-content\' style=\'color: white; font-family:Roboto; font-size: 1.5em\'>  </pre> <div style=\'color: white; font-family:Roboto; font-size: 1.5em\'>   Sprawdź czy na filmie znajduje się jedna osoba oraz czy film został nagrany według wytycznych. </div> "
       var content = $("#section-text-analysis-content")
       var parent = $("#analysis")
       var sidebar = $("#link4")

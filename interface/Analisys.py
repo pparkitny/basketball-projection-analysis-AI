@@ -96,6 +96,7 @@ def analysis(path=None):
     else:
         print("Film się nie nadaje")
         film = False
+        return {"Film się nie nadaje": "Algorytm nie był w stanie prawidłowo wykryć wszystkich obiektów."}
     # df_yolo.head()
 
     # Data Frame OP
@@ -566,6 +567,7 @@ def analysis(path=None):
         print("Film się nie nadaje")
         to_json.update(
             {"Film się nie nadaje": "NIE"})
+        # return {"error": "Film się nie nadaje."}
 
     with open(jsonPath, 'w+') as f:
         f.write(json.dumps(to_json))
